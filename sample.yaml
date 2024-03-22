@@ -1,0 +1,1322 @@
+serve: .
+snapshots:
+  - name: /
+    url: https://data.cms.gov/
+    waitForTimeout: 10000
+  - name: /api-docs
+    url: https://data.cms.gov/api-docs
+    waitForTimeout: 10000
+  - name: /browse-data-categories
+    url: https://data.cms.gov/browse-data-categories
+    waitForTimeout: 10000
+  - name: /contact
+    url: https://data.cms.gov/contact
+    waitForTimeout: 10000
+  - name: /resources/hospital-provider-cost-report-data-dictionary
+    url: https://data.cms.gov/resources/hospital-provider-cost-report-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/medicare-outpatient-hospitals-by-geography-and-service-data-dictionary
+    url: https://data.cms.gov/resources/medicare-outpatient-hospitals-by-geography-and-service-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/medicare-outpatient-hospitals-by-provider-and-service-data-dictionary
+    url: https://data.cms.gov/resources/medicare-outpatient-hospitals-by-provider-and-service-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/medicare-chronic-conditions-glossary
+    url: https://data.cms.gov/resources/medicare-chronic-conditions-glossary
+    waitForTimeout: 10000
+  - name: /resources/medicare-durable-medical-equipment-devices-supplies-by-geography-and-service-data-dictionary
+    url: https://data.cms.gov/resources/medicare-durable-medical-equipment-devices-supplies-by-geography-and-service-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/medicare-durable-medical-equipment-devices-supplies-by-referring-provider-data-dictionary
+    url: https://data.cms.gov/resources/medicare-durable-medical-equipment-devices-supplies-by-referring-provider-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/medicare-durable-medical-equipment-devices-supplies-by-referring-provider-and-service-data-dictionary
+    url: https://data.cms.gov/resources/medicare-durable-medical-equipment-devices-supplies-by-referring-provider-and-service-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/medicare-inpatient-hospitals-by-geography-and-service-data-dictionary
+    url: https://data.cms.gov/resources/medicare-inpatient-hospitals-by-geography-and-service-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/medicare-inpatient-hospitals-by-provider-and-service-data-dictionary
+    url: https://data.cms.gov/resources/medicare-inpatient-hospitals-by-provider-and-service-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/multiple-chronic-conditions-data-dictionary
+    url: https://data.cms.gov/resources/multiple-chronic-conditions-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/medicare-part-d-prescribers-by-geography-and-drug-data-dictionary
+    url: https://data.cms.gov/resources/medicare-part-d-prescribers-by-geography-and-drug-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/medicare-part-d-prescribers-by-provider-data-dictionary
+    url: https://data.cms.gov/resources/medicare-part-d-prescribers-by-provider-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/medicare-part-d-prescribers-by-provider-and-drug-data-dictionary
+    url: https://data.cms.gov/resources/medicare-part-d-prescribers-by-provider-and-drug-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/medicare-physician-other-practitioners-by-geography-and-service-data-dictionary
+    url: https://data.cms.gov/resources/medicare-physician-other-practitioners-by-geography-and-service-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/medicare-physician-other-practitioners-by-provider-data-dictionary
+    url: https://data.cms.gov/resources/medicare-physician-other-practitioners-by-provider-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/medicare-physician-other-practitioners-by-provider-and-service-data-dictionary
+    url: https://data.cms.gov/resources/medicare-physician-other-practitioners-by-provider-and-service-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/medicare-provider-type-glossary
+    url: https://data.cms.gov/resources/medicare-provider-type-glossary
+    waitForTimeout: 10000
+  - name: /resources/specific-chronic-conditions-data-dictionary
+    url: https://data.cms.gov/resources/specific-chronic-conditions-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/medicare-summary-reports-glossary
+    url: https://data.cms.gov/resources/medicare-summary-reports-glossary
+    waitForTimeout: 10000
+  - name: /resources/medicare-and-medicaid-summary-statistics-glossary
+    url: https://data.cms.gov/resources/medicare-and-medicaid-summary-statistics-glossary
+    waitForTimeout: 10000
+  - name: /resources/medicare-fee-for-service-comprehensive-error-rate-testing-improper-payment-data-dictionary
+    url: https://data.cms.gov/resources/medicare-fee-for-service-comprehensive-error-rate-testing-improper-payment-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/county-level-aggregate-expenditure-and-risk-score-data-on-assignable-beneficiaries-data-dictionary
+    url: https://data.cms.gov/resources/county-level-aggregate-expenditure-and-risk-score-data-on-assignable-beneficiaries-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/number-of-accountable-care-organization-assigned-beneficiaries-by-county-data-dictionary
+    url: https://data.cms.gov/resources/number-of-accountable-care-organization-assigned-beneficiaries-by-county-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/data-and-reports-data-dictionary
+    url: https://data.cms.gov/resources/data-and-reports-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/milestones-and-updates-data-dictionary
+    url: https://data.cms.gov/resources/milestones-and-updates-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/webinars-and-forums-data-dictionary
+    url: https://data.cms.gov/resources/webinars-and-forums-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/opt-out-affidavits-data-dictionary
+    url: https://data.cms.gov/resources/opt-out-affidavits-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/value-modifier-data-dictionary
+    url: https://data.cms.gov/resources/value-modifier-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/cpc-initiative-participating-primary-care-practices-data-dictionary
+    url: https://data.cms.gov/resources/cpc-initiative-participating-primary-care-practices-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/model-participants-data-dictionary
+    url: https://data.cms.gov/resources/model-participants-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/medicare-demonstrations-data-dictionary
+    url: https://data.cms.gov/resources/medicare-demonstrations-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/strong-start-awardees-data-dictionary
+    url: https://data.cms.gov/resources/strong-start-awardees-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/pending-initial-logging-and-tracking-physician-and-non-physicians-data-dictionary
+    url: https://data.cms.gov/resources/pending-initial-logging-and-tracking-physician-and-non-physicians-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/medicare-provider-and-supplier-taxonomy-crosswalk-data-dictionary
+    url: https://data.cms.gov/resources/medicare-provider-and-supplier-taxonomy-crosswalk-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/innovation-advisors-data-dictionary
+    url: https://data.cms.gov/resources/innovation-advisors-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/model-awardees-data-dictionary
+    url: https://data.cms.gov/resources/model-awardees-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/model-summary-information-data-dictionary
+    url: https://data.cms.gov/resources/model-summary-information-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/comprehensive-care-for-joint-replacement-model-msa-data-dictionary
+    url: https://data.cms.gov/resources/comprehensive-care-for-joint-replacement-model-msa-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/medicare-diabetes-prevention-program-data-dictionary
+    url: https://data.cms.gov/resources/medicare-diabetes-prevention-program-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/opioid-treatment-program-providers-data-dictionary
+    url: https://data.cms.gov/resources/opioid-treatment-program-providers-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/revalidation-due-date-list-data-dictionary
+    url: https://data.cms.gov/resources/revalidation-due-date-list-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/market-saturation-utilization-state-county-data-dictionary
+    url: https://data.cms.gov/resources/market-saturation-utilization-state-county-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/market-saturation-utilization-core-based-statistical-area-data-dictionary
+    url: https://data.cms.gov/resources/market-saturation-utilization-core-based-statistical-area-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/fiscal-intermediary-shared-system-attending-and-rendering-data-dictionary
+    url: https://data.cms.gov/resources/fiscal-intermediary-shared-system-attending-and-rendering-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/order-and-referring-data-dictionary
+    url: https://data.cms.gov/resources/order-and-referring-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/medicare-geographic-variation-by-national-state-county-data-dictionary
+    url: https://data.cms.gov/resources/medicare-geographic-variation-by-national-state-county-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/medicare-geographic-variation-by-hospital-referral-region-data-dictionary
+    url: https://data.cms.gov/resources/medicare-geographic-variation-by-hospital-referral-region-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/marketplace-open-enrollment-data-dictionary
+    url: https://data.cms.gov/resources/marketplace-open-enrollment-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/medicare-fee-for-service-public-provider-enrollment-data-dictionary
+    url: https://data.cms.gov/resources/medicare-fee-for-service-public-provider-enrollment-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/deficit-reduction-act-dra-hospital-acquired-condition-hac-measures-data-dictionary
+    url: https://data.cms.gov/resources/deficit-reduction-act-dra-hospital-acquired-condition-hac-measures-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/agency-for-healthcare-research-and-quality-ahrq-patient-safety-indicator-11-psi-11-measure-rates-data-dictionary
+    url: https://data.cms.gov/resources/agency-for-healthcare-research-and-quality-ahrq-patient-safety-indicator-11-psi-11-measure-rates-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/hospital-service-area-data-dictionary
+    url: https://data.cms.gov/resources/hospital-service-area-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/physician-supplier-procedure-summary-data-dictionary
+    url: https://data.cms.gov/resources/physician-supplier-procedure-summary-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/revalidation-clinic-group-practice-reassignment-data-dictionary
+    url: https://data.cms.gov/resources/revalidation-clinic-group-practice-reassignment-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/revalidation-reassignments-list-data-dictionary
+    url: https://data.cms.gov/resources/revalidation-reassignments-list-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/medicare-covid-19-cases-hospitalizations-data-dictionary
+    url: https://data.cms.gov/resources/medicare-covid-19-cases-hospitalizations-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/indian-health-service-tribal-and-urban-indian-long-term-service-and-support-programs-data-dictionary
+    url: https://data.cms.gov/resources/indian-health-service-tribal-and-urban-indian-long-term-service-and-support-programs-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/payroll-based-journal-daily-nurse-staffing-data-dictionary-2022
+    url: https://data.cms.gov/resources/payroll-based-journal-daily-nurse-staffing-data-dictionary-2022
+    waitForTimeout: 10000
+  - name: /resources/payroll-based-journal-daily-non-nurse-staffing-data-dictionary-2022
+    url: https://data.cms.gov/resources/payroll-based-journal-daily-non-nurse-staffing-data-dictionary-2022
+    waitForTimeout: 10000
+  - name: /resources/indian-health-service-tribal-and-urban-indian-long-term-service-and-support-programs-data-dictionary-0
+    url: https://data.cms.gov/resources/indian-health-service-tribal-and-urban-indian-long-term-service-and-support-programs-data-dictionary-0
+    waitForTimeout: 10000
+  - name: /resources/medicare-post-acute-care-hospice-by-provider-and-service-data-dictionary
+    url: https://data.cms.gov/resources/medicare-post-acute-care-hospice-by-provider-and-service-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/home-infusion-therapy-providers-data-dictionary
+    url: https://data.cms.gov/resources/home-infusion-therapy-providers-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/ascs-and-ifseds-data-dictionary
+    url: https://data.cms.gov/resources/ascs-and-ifseds-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/medicare-enrolled-mass-immunizers-data-dictionary
+    url: https://data.cms.gov/resources/medicare-enrolled-mass-immunizers-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/restructured-betos-classification-system-data-dictionary
+    url: https://data.cms.gov/resources/restructured-betos-classification-system-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/medicare-part-d-opioid-prescribing-rates-by-geography-data-dictionary
+    url: https://data.cms.gov/resources/medicare-part-d-opioid-prescribing-rates-by-geography-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/medicaid-opioid-prescribing-rates-by-geography-data-dictionary
+    url: https://data.cms.gov/resources/medicaid-opioid-prescribing-rates-by-geography-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/medicare-monthly-enrollment-data-dictionary
+    url: https://data.cms.gov/resources/medicare-monthly-enrollment-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/medicare-clinical-laboratory-fee-schedule-private-payer-rates-and-volumes-data-dictionary
+    url: https://data.cms.gov/resources/medicare-clinical-laboratory-fee-schedule-private-payer-rates-and-volumes-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/public-reporting-of-missing-digital-contact-information-data-dictionary
+    url: https://data.cms.gov/resources/public-reporting-of-missing-digital-contact-information-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/medicare-telemedicine-snapshot-data-dictionary
+    url: https://data.cms.gov/resources/medicare-telemedicine-snapshot-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/aco-participants-data-dictionary
+    url: https://data.cms.gov/resources/aco-participants-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/accountable-care-organizations-data-dictionary-2014-2022
+    url: https://data.cms.gov/resources/accountable-care-organizations-data-dictionary-2014-2022
+    waitForTimeout: 10000
+  - name: /resources/aco-snf-affiliates-data-dictionary
+    url: https://data.cms.gov/resources/aco-snf-affiliates-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/medicare-part-b-discarded-drug-units-data-dictionary
+    url: https://data.cms.gov/resources/medicare-part-b-discarded-drug-units-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/medicare-covid-19-hospitalization-trends-data-dictionary
+    url: https://data.cms.gov/resources/medicare-covid-19-hospitalization-trends-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/medicare-telehealth-trends-data-dictionary
+    url: https://data.cms.gov/resources/medicare-telehealth-trends-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/accountable-care-organization-skilled-nursing-facility-affiliates-data-dictionary-2023
+    url: https://data.cms.gov/resources/accountable-care-organization-skilled-nursing-facility-affiliates-data-dictionary-2023
+    waitForTimeout: 10000
+  - name: /resources/accountable-care-organizations-data-dictionary-2023
+    url: https://data.cms.gov/resources/accountable-care-organizations-data-dictionary-2023
+    waitForTimeout: 10000
+  - name: /resources/accountable-care-organization-participants-data-dictionary
+    url: https://data.cms.gov/resources/accountable-care-organization-participants-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/aco-reach-model-data-dictionary
+    url: https://data.cms.gov/resources/aco-reach-model-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/nursing-home-affiliated-entity-performance-measures-data-dictionary
+    url: https://data.cms.gov/resources/nursing-home-affiliated-entity-performance-measures-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/payroll-based-journal-employee-detail-nursing-home-staffing-data-dictionary
+    url: https://data.cms.gov/resources/payroll-based-journal-employee-detail-nursing-home-staffing-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/medicare-inpatient-hospitals-by-provider-data-dictionary
+    url: https://data.cms.gov/resources/medicare-inpatient-hospitals-by-provider-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/medicare-inpatient-hospitals-by-provider-and-service-data-dictionary-0
+    url: https://data.cms.gov/resources/medicare-inpatient-hospitals-by-provider-and-service-data-dictionary-0
+    waitForTimeout: 10000
+  - name: /resources/medicare-inpatient-hospitals-by-geography-and-service-data-dictionary-0
+    url: https://data.cms.gov/resources/medicare-inpatient-hospitals-by-geography-and-service-data-dictionary-0
+    waitForTimeout: 10000
+  - name: /resources/aco-reach-aligned-beneficiaries-data-dictionary-2021-older-version
+    url: https://data.cms.gov/resources/aco-reach-aligned-beneficiaries-data-dictionary-2021-older-version
+    waitForTimeout: 10000
+  - name: /resources/aco-reach-provider-data-dictionary
+    url: https://data.cms.gov/resources/aco-reach-provider-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/pioneer-aco-model-performance-year-2015-2016-data-dictionary
+    url: https://data.cms.gov/resources/pioneer-aco-model-performance-year-2015-2016-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/pioneer-aco-model-performance-year-2012-2014-data-dictionary
+    url: https://data.cms.gov/resources/pioneer-aco-model-performance-year-2012-2014-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/aco-reach-eligible-beneficiary-data-dictionary
+    url: https://data.cms.gov/resources/aco-reach-eligible-beneficiary-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/aco-reach-financial-and-quality-results-data-dictionary-2021-old
+    url: https://data.cms.gov/resources/aco-reach-financial-and-quality-results-data-dictionary-2021-old
+    waitForTimeout: 10000
+  - name: /resources/minimum-data-set-frequency-data-dictionary
+    url: https://data.cms.gov/resources/minimum-data-set-frequency-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/payroll-based-journal-daily-nurse-staffing-data-dictionary
+    url: https://data.cms.gov/resources/payroll-based-journal-daily-nurse-staffing-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/payroll-based-journal-daily-non-nurse-staffing-data-dictionary
+    url: https://data.cms.gov/resources/payroll-based-journal-daily-non-nurse-staffing-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/medicare-advantage-geographic-variation-national-state-data-dictionary-0
+    url: https://data.cms.gov/resources/medicare-advantage-geographic-variation-national-state-data-dictionary-0
+    waitForTimeout: 10000
+  - name: /resources/number-of-accountable-care-organization-assigned-beneficiaries-by-county-data-dictionary-2022
+    url: https://data.cms.gov/resources/number-of-accountable-care-organization-assigned-beneficiaries-by-county-data-dictionary-2022
+    waitForTimeout: 10000
+  - name: /resources/managing-clinician-aggregation-group-performance-data-dictionary
+    url: https://data.cms.gov/resources/managing-clinician-aggregation-group-performance-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/esrd-facility-aggregation-group-performance-data-dictionary
+    url: https://data.cms.gov/resources/esrd-facility-aggregation-group-performance-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/2023-rbcs-data-dictionary
+    url: https://data.cms.gov/resources/2023-rbcs-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/aco-reach-financial-and-quality-results-data-dictionary
+    url: https://data.cms.gov/resources/aco-reach-financial-and-quality-results-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/aco-reach-aligned-beneficiaries-data-dictionary
+    url: https://data.cms.gov/resources/aco-reach-aligned-beneficiaries-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/home-health-agency-cost-report-data-dictionary
+    url: https://data.cms.gov/resources/home-health-agency-cost-report-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/advance-investment-payment-spend-plan-data-dictionary
+    url: https://data.cms.gov/resources/advance-investment-payment-spend-plan-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/accountable-care-organizations-data-dictionary
+    url: https://data.cms.gov/resources/accountable-care-organizations-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/hospital-price-transparency-enforcement-activities-and-outcomes-data-dictionary
+    url: https://data.cms.gov/resources/hospital-price-transparency-enforcement-activities-and-outcomes-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/aco-reach-model-data-dictionary-2024
+    url: https://data.cms.gov/resources/aco-reach-model-data-dictionary-2024
+    waitForTimeout: 10000
+  - name: /resources/medicaid-spending-by-drug-data-dictionary
+    url: https://data.cms.gov/resources/medicaid-spending-by-drug-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/medicare-part-d-spending-by-drug-data-dictionary
+    url: https://data.cms.gov/resources/medicare-part-d-spending-by-drug-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/medicare-part-b-spending-by-drug-data-dictionary
+    url: https://data.cms.gov/resources/medicare-part-b-spending-by-drug-data-dictionary
+    waitForTimeout: 10000
+  - name: /resources/medicare-chronic-conditions-methodology
+    url: https://data.cms.gov/resources/medicare-chronic-conditions-methodology
+    waitForTimeout: 10000
+  - name: /resources/medicare-durable-medical-equipment-devices-supplies-methodology-2022
+    url: https://data.cms.gov/resources/medicare-durable-medical-equipment-devices-supplies-methodology-2022
+    waitForTimeout: 10000
+  - name: /resources/acos-aco-participants-and-snf-affiliates-methodology
+    url: https://data.cms.gov/resources/acos-aco-participants-and-snf-affiliates-methodology
+    waitForTimeout: 10000
+  - name: /resources/medicare-inpatient-hospitals-methodology-2021
+    url: https://data.cms.gov/resources/medicare-inpatient-hospitals-methodology-2021
+    waitForTimeout: 10000
+  - name: /resources/medicare-fee-for-service-comprehensive-error-rate-testing-improper-payment-data-methodology
+    url: https://data.cms.gov/resources/medicare-fee-for-service-comprehensive-error-rate-testing-improper-payment-data-methodology
+    waitForTimeout: 10000
+  - name: /resources/medicaid-opioid-prescribing-rates-by-geography-methodology
+    url: https://data.cms.gov/resources/medicaid-opioid-prescribing-rates-by-geography-methodology
+    waitForTimeout: 10000
+  - name: /resources/medicare-part-d-opioid-prescribing-rates-by-geography-methodology
+    url: https://data.cms.gov/resources/medicare-part-d-opioid-prescribing-rates-by-geography-methodology
+    waitForTimeout: 10000
+  - name: /resources/county-level-aggregate-expenditure-and-risk-score-data-on-assignable-beneficiaries-methodology
+    url: https://data.cms.gov/resources/county-level-aggregate-expenditure-and-risk-score-data-on-assignable-beneficiaries-methodology
+    waitForTimeout: 10000
+  - name: /resources/number-of-accountable-care-organization-assigned-beneficiaries-by-county-methodology
+    url: https://data.cms.gov/resources/number-of-accountable-care-organization-assigned-beneficiaries-by-county-methodology
+    waitForTimeout: 10000
+  - name: /resources/data-and-reports-methodology
+    url: https://data.cms.gov/resources/data-and-reports-methodology
+    waitForTimeout: 10000
+  - name: /resources/milestones-and-updates-methodology
+    url: https://data.cms.gov/resources/milestones-and-updates-methodology
+    waitForTimeout: 10000
+  - name: /resources/webinars-and-forums-methodology
+    url: https://data.cms.gov/resources/webinars-and-forums-methodology
+    waitForTimeout: 10000
+  - name: /resources/performance-year-financial-and-quality-results-archived-methodology
+    url: https://data.cms.gov/resources/performance-year-financial-and-quality-results-archived-methodology
+    waitForTimeout: 10000
+  - name: /resources/performance-year-financial-and-quality-results-methodology
+    url: https://data.cms.gov/resources/performance-year-financial-and-quality-results-methodology
+    waitForTimeout: 10000
+  - name: /resources/marketplace-open-enrollment-datasets-methodology
+    url: https://data.cms.gov/resources/marketplace-open-enrollment-datasets-methodology
+    waitForTimeout: 10000
+  - name: /resources/2018-value-modifier-performance-year-2016-methodology
+    url: https://data.cms.gov/resources/2018-value-modifier-performance-year-2016-methodology
+    waitForTimeout: 10000
+  - name: /resources/medicare-outpatient-hospitals-methodology
+    url: https://data.cms.gov/resources/medicare-outpatient-hospitals-methodology
+    waitForTimeout: 10000
+  - name: /resources/medicare-service-type-reports-methodology
+    url: https://data.cms.gov/resources/medicare-service-type-reports-methodology
+    waitForTimeout: 10000
+  - name: /resources/medicare-and-medicaid-reports-methodology
+    url: https://data.cms.gov/resources/medicare-and-medicaid-reports-methodology
+    waitForTimeout: 10000
+  - name: /resources/medicare-provider-type-methodology
+    url: https://data.cms.gov/resources/medicare-provider-type-methodology
+    waitForTimeout: 10000
+  - name: /resources/opt-out-affidavits-methodology
+    url: https://data.cms.gov/resources/opt-out-affidavits-methodology
+    waitForTimeout: 10000
+  - name: /resources/cpc-initiative-participating-primary-care-practices-methodology
+    url: https://data.cms.gov/resources/cpc-initiative-participating-primary-care-practices-methodology
+    waitForTimeout: 10000
+  - name: /resources/medicare-part-d-prescribers-methodology-2022
+    url: https://data.cms.gov/resources/medicare-part-d-prescribers-methodology-2022
+    waitForTimeout: 10000
+  - name: /resources/preliminary-medicare-covid-19-data-snapshot-methodology
+    url: https://data.cms.gov/resources/preliminary-medicare-covid-19-data-snapshot-methodology
+    waitForTimeout: 10000
+  - name: /resources/model-participants-methodology
+    url: https://data.cms.gov/resources/model-participants-methodology
+    waitForTimeout: 10000
+  - name: /resources/medicare-demonstrations-methodology
+    url: https://data.cms.gov/resources/medicare-demonstrations-methodology
+    waitForTimeout: 10000
+  - name: /resources/strong-start-awardees-methodology
+    url: https://data.cms.gov/resources/strong-start-awardees-methodology
+    waitForTimeout: 10000
+  - name: /resources/pending-initial-logging-and-tracking-physician-and-non-physicians-methodology
+    url: https://data.cms.gov/resources/pending-initial-logging-and-tracking-physician-and-non-physicians-methodology
+    waitForTimeout: 10000
+  - name: /resources/medicare-provider-and-supplier-taxonomy-crosswalk-methodology
+    url: https://data.cms.gov/resources/medicare-provider-and-supplier-taxonomy-crosswalk-methodology
+    waitForTimeout: 10000
+  - name: /resources/innovation-advisors-methodology
+    url: https://data.cms.gov/resources/innovation-advisors-methodology
+    waitForTimeout: 10000
+  - name: /resources/model-awardees-methodology
+    url: https://data.cms.gov/resources/model-awardees-methodology
+    waitForTimeout: 10000
+  - name: /resources/model-summary-information-methodology
+    url: https://data.cms.gov/resources/model-summary-information-methodology
+    waitForTimeout: 10000
+  - name: /resources/comprehensive-care-for-joint-replacement-model-msa-methodology
+    url: https://data.cms.gov/resources/comprehensive-care-for-joint-replacement-model-msa-methodology
+    waitForTimeout: 10000
+  - name: /resources/medicare-diabetes-prevention-program-methodology
+    url: https://data.cms.gov/resources/medicare-diabetes-prevention-program-methodology
+    waitForTimeout: 10000
+  - name: /resources/additional-information-on-revalidation
+    url: https://data.cms.gov/resources/additional-information-on-revalidation
+    waitForTimeout: 10000
+  - name: /resources/fee-for-service-public-provider-enrollment-methodology
+    url: https://data.cms.gov/resources/fee-for-service-public-provider-enrollment-methodology
+    waitForTimeout: 10000
+  - name: /resources/geographic-variation-methodology-2018
+    url: https://data.cms.gov/resources/geographic-variation-methodology-2018
+    waitForTimeout: 10000
+  - name: /resources/order-and-referring-methodology
+    url: https://data.cms.gov/resources/order-and-referring-methodology
+    waitForTimeout: 10000
+  - name: /resources/medicare-physician-other-practitioners-methodology-2022
+    url: https://data.cms.gov/resources/medicare-physician-other-practitioners-methodology-2022
+    waitForTimeout: 10000
+  - name: /resources/deficit-reduction-act-dra-hospital-acquired-condition-hac-measures-methodology
+    url: https://data.cms.gov/resources/deficit-reduction-act-dra-hospital-acquired-condition-hac-measures-methodology
+    waitForTimeout: 10000
+  - name: /resources/hospital-service-area-methodology
+    url: https://data.cms.gov/resources/hospital-service-area-methodology
+    waitForTimeout: 10000
+  - name: /resources/physician-supplier-procedure-summary-methodology
+    url: https://data.cms.gov/resources/physician-supplier-procedure-summary-methodology
+    waitForTimeout: 10000
+  - name: /resources/payroll-based-journal-methodology
+    url: https://data.cms.gov/resources/payroll-based-journal-methodology
+    waitForTimeout: 10000
+  - name: /resources/provider-of-services-file-methodology
+    url: https://data.cms.gov/resources/provider-of-services-file-methodology
+    waitForTimeout: 10000
+  - name: /resources/indian-health-service-tribal-and-urban-indian-long-term-service-and-support-programs-methodology
+    url: https://data.cms.gov/resources/indian-health-service-tribal-and-urban-indian-long-term-service-and-support-programs-methodology
+    waitForTimeout: 10000
+  - name: /resources/medicare-post-acute-care-hospice-by-provider-and-service-methodology
+    url: https://data.cms.gov/resources/medicare-post-acute-care-hospice-by-provider-and-service-methodology
+    waitForTimeout: 10000
+  - name: /resources/covid-19-nursing-home-methodology
+    url: https://data.cms.gov/resources/covid-19-nursing-home-methodology
+    waitForTimeout: 10000
+  - name: /resources/home-infusion-therapy-providers-methodology
+    url: https://data.cms.gov/resources/home-infusion-therapy-providers-methodology
+    waitForTimeout: 10000
+  - name: /resources/ascs-and-ifeds-methodology
+    url: https://data.cms.gov/resources/ascs-and-ifeds-methodology
+    waitForTimeout: 10000
+  - name: /resources/medicare-enrolled-mass-immunizers-methodology
+    url: https://data.cms.gov/resources/medicare-enrolled-mass-immunizers-methodology
+    waitForTimeout: 10000
+  - name: /resources/skilled-nursing-facility-cost-report-methodology
+    url: https://data.cms.gov/resources/skilled-nursing-facility-cost-report-methodology
+    waitForTimeout: 10000
+  - name: /resources/hospital-provider-cost-report-methodology
+    url: https://data.cms.gov/resources/hospital-provider-cost-report-methodology
+    waitForTimeout: 10000
+  - name: /resources/medicare-clinical-laboratory-fee-schedule-private-payer-rates-and-volumes-methodology
+    url: https://data.cms.gov/resources/medicare-clinical-laboratory-fee-schedule-private-payer-rates-and-volumes-methodology
+    waitForTimeout: 10000
+  - name: /resources/medicare-telemedicine-snapshot-methodology
+    url: https://data.cms.gov/resources/medicare-telemedicine-snapshot-methodology
+    waitForTimeout: 10000
+  - name: /resources/geographic-variation-methodology
+    url: https://data.cms.gov/resources/geographic-variation-methodology
+    waitForTimeout: 10000
+  - name: /resources/medicare-part-b-discarded-drug-units-methodology
+    url: https://data.cms.gov/resources/medicare-part-b-discarded-drug-units-methodology
+    waitForTimeout: 10000
+  - name: /resources/medicare-covid-19-hospitalization-trends-methodology
+    url: https://data.cms.gov/resources/medicare-covid-19-hospitalization-trends-methodology
+    waitForTimeout: 10000
+  - name: /resources/market-saturation-utilization-state-county-methodology-q3-2022
+    url: https://data.cms.gov/resources/market-saturation-utilization-state-county-methodology-q3-2022
+    waitForTimeout: 10000
+  - name: /resources/market-saturation-utilization-core-based-statistical-areas-methodology-q3-2022
+    url: https://data.cms.gov/resources/market-saturation-utilization-core-based-statistical-areas-methodology-q3-2022
+    waitForTimeout: 10000
+  - name: /resources/skilled-nursing-facility-enrollments-methodology
+    url: https://data.cms.gov/resources/skilled-nursing-facility-enrollments-methodology
+    waitForTimeout: 10000
+  - name: /resources/skilled-nursing-facility-all-owners-methodology
+    url: https://data.cms.gov/resources/skilled-nursing-facility-all-owners-methodology
+    waitForTimeout: 10000
+  - name: /resources/performance-year-financial-and-quality-results-methodology-0
+    url: https://data.cms.gov/resources/performance-year-financial-and-quality-results-methodology-0
+    waitForTimeout: 10000
+  - name: /resources/medicare-part-d-opioid-prescribing-rates-by-geography-methodology-0
+    url: https://data.cms.gov/resources/medicare-part-d-opioid-prescribing-rates-by-geography-methodology-0
+    waitForTimeout: 10000
+  - name: /resources/medicaid-opioid-prescribing-rates-by-geography-methodology-0
+    url: https://data.cms.gov/resources/medicaid-opioid-prescribing-rates-by-geography-methodology-0
+    waitForTimeout: 10000
+  - name: /resources/medicare-outpatient-hospitals-methodology-0
+    url: https://data.cms.gov/resources/medicare-outpatient-hospitals-methodology-0
+    waitForTimeout: 10000
+  - name: /resources/opioid-treatment-program-providers-methodology
+    url: https://data.cms.gov/resources/opioid-treatment-program-providers-methodology
+    waitForTimeout: 10000
+  - name: /resources/hospital-enrollments-methodology
+    url: https://data.cms.gov/resources/hospital-enrollments-methodology
+    waitForTimeout: 10000
+  - name: /resources/medicaid-spending-by-drug-methodology
+    url: https://data.cms.gov/resources/medicaid-spending-by-drug-methodology
+    waitForTimeout: 10000
+  - name: /resources/medicare-part-b-spending-by-drug-methodology
+    url: https://data.cms.gov/resources/medicare-part-b-spending-by-drug-methodology
+    waitForTimeout: 10000
+  - name: /resources/medicare-telehealth-trends-methodology
+    url: https://data.cms.gov/resources/medicare-telehealth-trends-methodology
+    waitForTimeout: 10000
+  - name: /resources/aco-reach-model-methodology
+    url: https://data.cms.gov/resources/aco-reach-model-methodology
+    waitForTimeout: 10000
+  - name: /resources/nursing-home-affiliated-entity-performance-measures-methodology
+    url: https://data.cms.gov/resources/nursing-home-affiliated-entity-performance-measures-methodology
+    waitForTimeout: 10000
+  - name: /resources/market-saturation-utilization-state-county-methodology-q4-2022
+    url: https://data.cms.gov/resources/market-saturation-utilization-state-county-methodology-q4-2022
+    waitForTimeout: 10000
+  - name: /resources/market-saturation-utilization-core-based-statistical-areas-methodology
+    url: https://data.cms.gov/resources/market-saturation-utilization-core-based-statistical-areas-methodology
+    waitForTimeout: 10000
+  - name: /resources/minimum-data-set-frequency-methodology
+    url: https://data.cms.gov/resources/minimum-data-set-frequency-methodology
+    waitForTimeout: 10000
+  - name: /resources/medicare-inpatient-hospitals-methodology
+    url: https://data.cms.gov/resources/medicare-inpatient-hospitals-methodology
+    waitForTimeout: 10000
+  - name: /resources/aco-realizing-equity-access-and-community-health-aco-reach-model-methodology
+    url: https://data.cms.gov/resources/aco-realizing-equity-access-and-community-health-aco-reach-model-methodology
+    waitForTimeout: 10000
+  - name: /resources/pioneer-aco-model-methodology
+    url: https://data.cms.gov/resources/pioneer-aco-model-methodology
+    waitForTimeout: 10000
+  - name: /resources/medicare-part-d-prescribers-methodology
+    url: https://data.cms.gov/resources/medicare-part-d-prescribers-methodology
+    waitForTimeout: 10000
+  - name: /resources/medicare-durable-medical-equipment-devices-supplies-methodology
+    url: https://data.cms.gov/resources/medicare-durable-medical-equipment-devices-supplies-methodology
+    waitForTimeout: 10000
+  - name: /resources/medicare-physician-other-practitioners-methodology
+    url: https://data.cms.gov/resources/medicare-physician-other-practitioners-methodology
+    waitForTimeout: 10000
+  - name: /resources/payroll-based-journal-methodology-0
+    url: https://data.cms.gov/resources/payroll-based-journal-methodology-0
+    waitForTimeout: 10000
+  - name: /resources/payroll-based-journal-employee-detail-nursing-home-staffing-methodology
+    url: https://data.cms.gov/resources/payroll-based-journal-employee-detail-nursing-home-staffing-methodology
+    waitForTimeout: 10000
+  - name: /resources/medicare-monthly-enrollment-methodology
+    url: https://data.cms.gov/resources/medicare-monthly-enrollment-methodology
+    waitForTimeout: 10000
+  - name: /resources/medicare-advantage-geographic-variation-national-state-methodology
+    url: https://data.cms.gov/resources/medicare-advantage-geographic-variation-national-state-methodology
+    waitForTimeout: 10000
+  - name: /resources/esrd-treatment-choices-etc-model-methodology
+    url: https://data.cms.gov/resources/esrd-treatment-choices-etc-model-methodology
+    waitForTimeout: 10000
+  - name: /resources/market-saturation-utilization-state-county-methodology
+    url: https://data.cms.gov/resources/market-saturation-utilization-state-county-methodology
+    waitForTimeout: 10000
+  - name: /resources/home-health-agency-cost-report-methodology
+    url: https://data.cms.gov/resources/home-health-agency-cost-report-methodology
+    waitForTimeout: 10000
+  - name: /resources/advance-investment-payment-spend-plan-methodology
+    url: https://data.cms.gov/resources/advance-investment-payment-spend-plan-methodology
+    waitForTimeout: 10000
+  - name: /resources/medicare-covid-19-hospitalization-trends-methodology-2023
+    url: https://data.cms.gov/resources/medicare-covid-19-hospitalization-trends-methodology-2023
+    waitForTimeout: 10000
+  - name: /resources/hospital-price-transparency-enforcement-activities-and-outcomes-methodology
+    url: https://data.cms.gov/resources/hospital-price-transparency-enforcement-activities-and-outcomes-methodology
+    waitForTimeout: 10000
+  - name: /resources/pos-file-iqies-for-hha-asc-and-hospice-providers-methodology
+    url: https://data.cms.gov/resources/pos-file-iqies-for-hha-asc-and-hospice-providers-methodology
+    waitForTimeout: 10000
+  - name: /resources/medicare-part-d-spending-by-drug-methodology
+    url: https://data.cms.gov/resources/medicare-part-d-spending-by-drug-methodology
+    waitForTimeout: 10000
+  - name: /resources/market-saturation-utilization-state-county-methodology-q4-2023
+    url: https://data.cms.gov/resources/market-saturation-utilization-state-county-methodology-q4-2023
+    waitForTimeout: 10000
+  - name: /resources/market-saturation-utilization-core-based-statistical-areas-methodology-q4-2023
+    url: https://data.cms.gov/resources/market-saturation-utilization-core-based-statistical-areas-methodology-q4-2023
+    waitForTimeout: 10000
+  - name: /tools/medicare-inpatient-hospital-look-up-tool
+    url: https://data.cms.gov/tools/medicare-inpatient-hospital-look-up-tool
+    waitForTimeout: 10000
+  - name: /tools/medicare-part-d-prescriber-look-up-tool
+    url: https://data.cms.gov/tools/medicare-part-d-prescriber-look-up-tool
+    waitForTimeout: 10000
+  - name: /tools/medicare-physician-other-practitioner-look-up-tool
+    url: https://data.cms.gov/tools/medicare-physician-other-practitioner-look-up-tool
+    waitForTimeout: 10000
+  - name: /tools/provider-opt-out-affidavits-look-up-tool
+    url: https://data.cms.gov/tools/provider-opt-out-affidavits-look-up-tool
+    waitForTimeout: 10000
+  - name: /tools/medicare-revalidation-list
+    url: https://data.cms.gov/tools/medicare-revalidation-list
+    waitForTimeout: 10000
+  - name: /tools/covid-19-nursing-homes-lookup-tool-internal
+    url: https://data.cms.gov/tools/covid-19-nursing-homes-lookup-tool-internal
+    waitForTimeout: 10000
+  - name: /tools/mapping-medicare-disparities-by-population
+    url: https://data.cms.gov/tools/mapping-medicare-disparities-by-population
+    waitForTimeout: 10000
+  - name: /tools/mapping-medicare-disparities-by-hospital
+    url: https://data.cms.gov/tools/mapping-medicare-disparities-by-hospital
+    waitForTimeout: 10000
+  - name: /tools/market-saturation-utilization-state-county-mapping-tool
+    url: https://data.cms.gov/tools/market-saturation-utilization-state-county-mapping-tool
+    waitForTimeout: 10000
+  - name: /tools/medicare-shared-saving-program-internal
+    url: https://data.cms.gov/tools/medicare-shared-saving-program-internal
+    waitForTimeout: 10000
+  - name: /tools/market-saturation-utilization-core-based-statistical-areas-mapping-tool
+    url: https://data.cms.gov/tools/market-saturation-utilization-core-based-statistical-areas-mapping-tool
+    waitForTimeout: 10000
+  - name: /tools/medicare-enrollment-dashboard
+    url: https://data.cms.gov/tools/medicare-enrollment-dashboard
+    waitForTimeout: 10000
+  - name: /tools/mapping-disparities-by-social-determinants-of-health
+    url: https://data.cms.gov/tools/mapping-disparities-by-social-determinants-of-health
+    waitForTimeout: 10000
+  - name: /search
+    url: https://data.cms.gov/search
+    waitForTimeout: 10000
+  - name: /sitemap
+    url: https://data.cms.gov/sitemap
+    waitForTimeout: 10000
+  - name: /about
+    url: https://data.cms.gov/about
+    waitForTimeout: 10000
+  - name: /related-sites
+    url: https://data.cms.gov/related-sites
+    waitForTimeout: 10000
+  - name: /fact-sheet/medicare-current-beneficiary-survey-covid-19-data-snapshot
+    url: https://data.cms.gov/fact-sheet/medicare-current-beneficiary-survey-covid-19-data-snapshot
+    waitForTimeout: 10000
+  - name: /collection/cms-program-statistics
+    url: https://data.cms.gov/collection/cms-program-statistics
+    waitForTimeout: 10000
+  - name: /collection/synthetic-medicare-enrollment-fee-for-service-claims-and-prescription-drug-event
+    url: https://data.cms.gov/collection/synthetic-medicare-enrollment-fee-for-service-claims-and-prescription-drug-event
+    waitForTimeout: 10000
+  - name: /infographic/medicare-beneficiaries-at-a-glance
+    url: https://data.cms.gov/infographic/medicare-beneficiaries-at-a-glance
+    waitForTimeout: 10000
+  - name: /fact-sheet/cms-fast-facts
+    url: https://data.cms.gov/fact-sheet/cms-fast-facts
+    waitForTimeout: 10000
+  - name: /fact-sheet/cms-fast-facts-march-2024
+    url: https://data.cms.gov/fact-sheet/cms-fast-facts-march-2024
+    waitForTimeout: 10000
+  - name: /tools
+    url: https://data.cms.gov/tools
+    waitForTimeout: 10000
+  - name: /medicare-chronic-conditions/specific-chronic-conditions
+    url: https://data.cms.gov/medicare-chronic-conditions/specific-chronic-conditions
+    waitForTimeout: 10000
+  - name: /medicare-chronic-conditions/multiple-chronic-conditions
+    url: https://data.cms.gov/medicare-chronic-conditions/multiple-chronic-conditions
+    waitForTimeout: 10000
+  - name: /provider-summary-by-type-of-service/medicare-physician-other-practitioners/medicare-physician-other-practitioners-by-provider-and-service
+    url: https://data.cms.gov/provider-summary-by-type-of-service/medicare-physician-other-practitioners/medicare-physician-other-practitioners-by-provider-and-service
+    waitForTimeout: 10000
+  - name: /provider-summary-by-type-of-service/medicare-physician-other-practitioners/medicare-physician-other-practitioners-by-provider
+    url: https://data.cms.gov/provider-summary-by-type-of-service/medicare-physician-other-practitioners/medicare-physician-other-practitioners-by-provider
+    waitForTimeout: 10000
+  - name: /provider-summary-by-type-of-service/medicare-physician-other-practitioners/medicare-physician-other-practitioners-by-geography-and-service
+    url: https://data.cms.gov/provider-summary-by-type-of-service/medicare-physician-other-practitioners/medicare-physician-other-practitioners-by-geography-and-service
+    waitForTimeout: 10000
+  - name: /provider-summary-by-type-of-service/medicare-inpatient-hospitals/medicare-inpatient-hospitals-by-provider-and-service
+    url: https://data.cms.gov/provider-summary-by-type-of-service/medicare-inpatient-hospitals/medicare-inpatient-hospitals-by-provider-and-service
+    waitForTimeout: 10000
+  - name: /provider-summary-by-type-of-service/medicare-inpatient-hospitals/medicare-inpatient-hospitals-by-geography-and-service
+    url: https://data.cms.gov/provider-summary-by-type-of-service/medicare-inpatient-hospitals/medicare-inpatient-hospitals-by-geography-and-service
+    waitForTimeout: 10000
+  - name: /provider-summary-by-type-of-service/medicare-outpatient-hospitals/medicare-outpatient-hospitals-by-provider-and-service
+    url: https://data.cms.gov/provider-summary-by-type-of-service/medicare-outpatient-hospitals/medicare-outpatient-hospitals-by-provider-and-service
+    waitForTimeout: 10000
+  - name: /provider-summary-by-type-of-service/medicare-outpatient-hospitals/medicare-outpatient-hospitals-by-geography-and-service
+    url: https://data.cms.gov/provider-summary-by-type-of-service/medicare-outpatient-hospitals/medicare-outpatient-hospitals-by-geography-and-service
+    waitForTimeout: 10000
+  - name: /provider-summary-by-type-of-service/medicare-durable-medical-equipment-devices-supplies/medicare-durable-medical-equipment-devices-supplies-by-referring-provider-and-service
+    url: https://data.cms.gov/provider-summary-by-type-of-service/medicare-durable-medical-equipment-devices-supplies/medicare-durable-medical-equipment-devices-supplies-by-referring-provider-and-service
+    waitForTimeout: 10000
+  - name: /provider-summary-by-type-of-service/medicare-durable-medical-equipment-devices-supplies/medicare-durable-medical-equipment-devices-supplies-by-referring-provider
+    url: https://data.cms.gov/provider-summary-by-type-of-service/medicare-durable-medical-equipment-devices-supplies/medicare-durable-medical-equipment-devices-supplies-by-referring-provider
+    waitForTimeout: 10000
+  - name: /provider-summary-by-type-of-service/medicare-durable-medical-equipment-devices-supplies/medicare-durable-medical-equipment-devices-supplies-by-geography-and-service
+    url: https://data.cms.gov/provider-summary-by-type-of-service/medicare-durable-medical-equipment-devices-supplies/medicare-durable-medical-equipment-devices-supplies-by-geography-and-service
+    waitForTimeout: 10000
+  - name: /provider-summary-by-type-of-service/medicare-part-d-prescribers/medicare-part-d-prescribers-by-provider-and-drug
+    url: https://data.cms.gov/provider-summary-by-type-of-service/medicare-part-d-prescribers/medicare-part-d-prescribers-by-provider-and-drug
+    waitForTimeout: 10000
+  - name: /provider-summary-by-type-of-service/medicare-part-d-prescribers/medicare-part-d-prescribers-by-provider
+    url: https://data.cms.gov/provider-summary-by-type-of-service/medicare-part-d-prescribers/medicare-part-d-prescribers-by-provider
+    waitForTimeout: 10000
+  - name: /provider-summary-by-type-of-service/medicare-part-d-prescribers/medicare-part-d-prescribers-by-geography-and-drug
+    url: https://data.cms.gov/provider-summary-by-type-of-service/medicare-part-d-prescribers/medicare-part-d-prescribers-by-geography-and-drug
+    waitForTimeout: 10000
+  - name: /summary-statistics-on-use-and-payments/medicare-medicaid-opioid-prescribing-rates/medicare-part-d-opioid-prescribing-rates-by-geography
+    url: https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-medicaid-opioid-prescribing-rates/medicare-part-d-opioid-prescribing-rates-by-geography
+    waitForTimeout: 10000
+  - name: /summary-statistics-on-use-and-payments/medicare-medicaid-opioid-prescribing-rates/medicaid-opioid-prescribing-rates-by-geography
+    url: https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-medicaid-opioid-prescribing-rates/medicaid-opioid-prescribing-rates-by-geography
+    waitForTimeout: 10000
+  - name: /summary-statistics-on-use-and-payments/medicare-service-type-reports/cms-program-statistics-medicare-part-a-part-b-all-types-of-service
+    url: https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-service-type-reports/cms-program-statistics-medicare-part-a-part-b-all-types-of-service
+    waitForTimeout: 10000
+  - name: /summary-statistics-on-use-and-payments/medicare-service-type-reports/cms-program-statistics-medicare-inpatient-hospital
+    url: https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-service-type-reports/cms-program-statistics-medicare-inpatient-hospital
+    waitForTimeout: 10000
+  - name: /summary-statistics-on-use-and-payments/medicare-service-type-reports/cms-program-statistics-medicare-skilled-nursing-facility
+    url: https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-service-type-reports/cms-program-statistics-medicare-skilled-nursing-facility
+    waitForTimeout: 10000
+  - name: /summary-statistics-on-use-and-payments/medicare-service-type-reports/cms-program-statistics-medicare-hospice
+    url: https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-service-type-reports/cms-program-statistics-medicare-hospice
+    waitForTimeout: 10000
+  - name: /summary-statistics-on-use-and-payments/medicare-service-type-reports/cms-program-statistics-medicare-home-health-agency
+    url: https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-service-type-reports/cms-program-statistics-medicare-home-health-agency
+    waitForTimeout: 10000
+  - name: /summary-statistics-on-use-and-payments/medicare-service-type-reports/cms-program-statistics-medicare-outpatient-facility
+    url: https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-service-type-reports/cms-program-statistics-medicare-outpatient-facility
+    waitForTimeout: 10000
+  - name: /summary-statistics-on-use-and-payments/medicare-service-type-reports/cms-program-statistics-medicare-physician-non-physician-practitioner-supplier
+    url: https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-service-type-reports/cms-program-statistics-medicare-physician-non-physician-practitioner-supplier
+    waitForTimeout: 10000
+  - name: /summary-statistics-on-use-and-payments/medicare-service-type-reports/cms-program-statistics-medicare-part-d
+    url: https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-service-type-reports/cms-program-statistics-medicare-part-d
+    waitForTimeout: 10000
+  - name: /summary-statistics-on-use-and-payments/medicare-premium-reports/cms-program-statistics-medicare-premiums
+    url: https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-premium-reports/cms-program-statistics-medicare-premiums
+    waitForTimeout: 10000
+  - name: /summary-statistics-on-use-and-payments/medicare-geographic-comparisons/medicare-geographic-variation-by-national-state-county
+    url: https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-geographic-comparisons/medicare-geographic-variation-by-national-state-county
+    waitForTimeout: 10000
+  - name: /summary-statistics-on-use-and-payments/medicare-geographic-comparisons/medicare-geographic-variation-by-hospital-referral-region
+    url: https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-geographic-comparisons/medicare-geographic-variation-by-hospital-referral-region
+    waitForTimeout: 10000
+  - name: /summary-statistics-on-use-and-payments/medicare-medicaid-spending-by-drug/medicare-part-d-spending-by-drug
+    url: https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-medicaid-spending-by-drug/medicare-part-d-spending-by-drug
+    waitForTimeout: 10000
+  - name: /summary-statistics-on-use-and-payments/medicare-medicaid-spending-by-drug/medicare-part-b-spending-by-drug
+    url: https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-medicaid-spending-by-drug/medicare-part-b-spending-by-drug
+    waitForTimeout: 10000
+  - name: /summary-statistics-on-use-and-payments/medicare-medicaid-spending-by-drug/medicaid-spending-by-drug
+    url: https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-medicaid-spending-by-drug/medicaid-spending-by-drug
+    waitForTimeout: 10000
+  - name: /provider-characteristics/hospitals-and-other-facilities/provider-of-services-file-clinical-laboratories
+    url: https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/provider-of-services-file-clinical-laboratories
+    waitForTimeout: 10000
+  - name: /provider-characteristics/hospitals-and-other-facilities/provider-of-services-file-hospital-non-hospital-facilities
+    url: https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/provider-of-services-file-hospital-non-hospital-facilities
+    waitForTimeout: 10000
+  - name: /provider-compliance/cost-report/hospital-provider-cost-report
+    url: https://data.cms.gov/provider-compliance/cost-report/hospital-provider-cost-report
+    waitForTimeout: 10000
+  - name: /summary-statistics-on-provider-enrollment/medicare-provider-type-reports/cms-program-statistics-medicare-providers
+    url: https://data.cms.gov/summary-statistics-on-provider-enrollment/medicare-provider-type-reports/cms-program-statistics-medicare-providers
+    waitForTimeout: 10000
+  - name: /summary-statistics-on-beneficiary-enrollment/medicare-and-medicaid-reports/cms-program-statistics-medicare-total-enrollment
+    url: https://data.cms.gov/summary-statistics-on-beneficiary-enrollment/medicare-and-medicaid-reports/cms-program-statistics-medicare-total-enrollment
+    waitForTimeout: 10000
+  - name: /summary-statistics-on-beneficiary-enrollment/medicare-and-medicaid-reports/cms-program-statistics-original-medicare-enrollment
+    url: https://data.cms.gov/summary-statistics-on-beneficiary-enrollment/medicare-and-medicaid-reports/cms-program-statistics-original-medicare-enrollment
+    waitForTimeout: 10000
+  - name: /summary-statistics-on-beneficiary-enrollment/medicare-and-medicaid-reports/cms-program-statistics-medicare-advantage-other-health-plan-enrollment
+    url: https://data.cms.gov/summary-statistics-on-beneficiary-enrollment/medicare-and-medicaid-reports/cms-program-statistics-medicare-advantage-other-health-plan-enrollment
+    waitForTimeout: 10000
+  - name: /summary-statistics-on-beneficiary-enrollment/medicare-and-medicaid-reports/cms-program-statistics-medicare-newly-enrolled
+    url: https://data.cms.gov/summary-statistics-on-beneficiary-enrollment/medicare-and-medicaid-reports/cms-program-statistics-medicare-newly-enrolled
+    waitForTimeout: 10000
+  - name: /summary-statistics-on-beneficiary-enrollment/medicare-and-medicaid-reports/cms-program-statistics-medicare-deaths
+    url: https://data.cms.gov/summary-statistics-on-beneficiary-enrollment/medicare-and-medicaid-reports/cms-program-statistics-medicare-deaths
+    waitForTimeout: 10000
+  - name: /summary-statistics-on-beneficiary-enrollment/medicare-and-medicaid-reports/cms-program-statistics-medicare-part-d-enrollment
+    url: https://data.cms.gov/summary-statistics-on-beneficiary-enrollment/medicare-and-medicaid-reports/cms-program-statistics-medicare-part-d-enrollment
+    waitForTimeout: 10000
+  - name: /summary-statistics-on-beneficiary-enrollment/medicare-and-medicaid-reports/medicare-monthly-enrollment
+    url: https://data.cms.gov/summary-statistics-on-beneficiary-enrollment/medicare-and-medicaid-reports/medicare-monthly-enrollment
+    waitForTimeout: 10000
+  - name: /summary-statistics-on-beneficiary-enrollment/medicare-and-medicaid-reports/cms-program-statistics-medicare-medicaid-dual-enrollment
+    url: https://data.cms.gov/summary-statistics-on-beneficiary-enrollment/medicare-and-medicaid-reports/cms-program-statistics-medicare-medicaid-dual-enrollment
+    waitForTimeout: 10000
+  - name: /medicare-current-beneficiary-survey-mcbs/medicare-current-beneficiary-survey-survey-file
+    url: https://data.cms.gov/medicare-current-beneficiary-survey-mcbs/medicare-current-beneficiary-survey-survey-file
+    waitForTimeout: 10000
+  - name: /cms-innovation-center-programs/cms-innovation-models-overview/innovation-center-milestones-and-updates
+    url: https://data.cms.gov/cms-innovation-center-programs/cms-innovation-models-overview/innovation-center-milestones-and-updates
+    waitForTimeout: 10000
+  - name: /provider-characteristics/medicare-provider-supplier-enrollment/opt-out-affidavits
+    url: https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/opt-out-affidavits
+    waitForTimeout: 10000
+  - name: /medicare-shared-savings-program/accountable-care-organizations
+    url: https://data.cms.gov/medicare-shared-savings-program/accountable-care-organizations
+    waitForTimeout: 10000
+  - name: /provider-compliance/fee-for-service-error-rate-improper-payment/medicare-fee-for-service-comprehensive-error-rate-testing
+    url: https://data.cms.gov/provider-compliance/fee-for-service-error-rate-improper-payment/medicare-fee-for-service-comprehensive-error-rate-testing
+    waitForTimeout: 10000
+  - name: /quality-of-care/payroll-based-journal-daily-nurse-staffing
+    url: https://data.cms.gov/quality-of-care/payroll-based-journal-daily-nurse-staffing
+    waitForTimeout: 10000
+  - name: /medicare-shared-savings-program/accountable-care-organization-participants
+    url: https://data.cms.gov/medicare-shared-savings-program/accountable-care-organization-participants
+    waitForTimeout: 10000
+  - name: /medicare-shared-savings-program/accountable-care-organization-skilled-nursing-facility-affiliates
+    url: https://data.cms.gov/medicare-shared-savings-program/accountable-care-organization-skilled-nursing-facility-affiliates
+    waitForTimeout: 10000
+  - name: /quality-of-care/medicare-dialysis-facilities
+    url: https://data.cms.gov/quality-of-care/medicare-dialysis-facilities
+    waitForTimeout: 10000
+  - name: /medicare-shared-savings-program/county-level-aggregate-expenditure-and-risk-score-data-on-assignable-beneficiaries
+    url: https://data.cms.gov/medicare-shared-savings-program/county-level-aggregate-expenditure-and-risk-score-data-on-assignable-beneficiaries
+    waitForTimeout: 10000
+  - name: /medicare-shared-savings-program/number-of-accountable-care-organization-assigned-beneficiaries-by-county
+    url: https://data.cms.gov/medicare-shared-savings-program/number-of-accountable-care-organization-assigned-beneficiaries-by-county
+    waitForTimeout: 10000
+  - name: /quality-of-care/payroll-based-journal-daily-non-nurse-staffing
+    url: https://data.cms.gov/quality-of-care/payroll-based-journal-daily-non-nurse-staffing
+    waitForTimeout: 10000
+  - name: /covid-19/covid-19-nursing-home-data
+    url: https://data.cms.gov/covid-19/covid-19-nursing-home-data
+    waitForTimeout: 10000
+  - name: /cms-innovation-center-programs/cms-innovation-models-overview/innovation-center-data-and-reports
+    url: https://data.cms.gov/cms-innovation-center-programs/cms-innovation-models-overview/innovation-center-data-and-reports
+    waitForTimeout: 10000
+  - name: /cms-innovation-center-programs/cms-innovation-models-overview/innovation-center-webinars-and-forums
+    url: https://data.cms.gov/cms-innovation-center-programs/cms-innovation-models-overview/innovation-center-webinars-and-forums
+    waitForTimeout: 10000
+  - name: /medicare-shared-savings-program/performance-year-financial-and-quality-results
+    url: https://data.cms.gov/medicare-shared-savings-program/performance-year-financial-and-quality-results
+    waitForTimeout: 10000
+  - name: /medicare-value-based-payment-modifier-program/value-modifier
+    url: https://data.cms.gov/medicare-value-based-payment-modifier-program/value-modifier
+    waitForTimeout: 10000
+  - name: /provider-characteristics/medicare-provider-supplier-enrollment/pending-initial-logging-and-tracking-non-physicians
+    url: https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/pending-initial-logging-and-tracking-non-physicians
+    waitForTimeout: 10000
+  - name: /provider-characteristics/medicare-provider-supplier-enrollment/pending-initial-logging-and-tracking-physicians
+    url: https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/pending-initial-logging-and-tracking-physicians
+    waitForTimeout: 10000
+  - name: /cms-innovation-center-programs/alternative-payments-comprehensive-primary-care-initiative-participating-primary-care-practices/cpc-initiative-participating-primary-care-practices
+    url: https://data.cms.gov/cms-innovation-center-programs/alternative-payments-comprehensive-primary-care-initiative-participating-primary-care-practices/cpc-initiative-participating-primary-care-practices
+    waitForTimeout: 10000
+  - name: /cms-innovation-center-programs/cms-innovation-models-overview/innovation-center-model-participants
+    url: https://data.cms.gov/cms-innovation-center-programs/cms-innovation-models-overview/innovation-center-model-participants
+    waitForTimeout: 10000
+  - name: /cms-innovation-center-programs/cms-innovation-models-overview/medicare-demonstrations
+    url: https://data.cms.gov/cms-innovation-center-programs/cms-innovation-models-overview/medicare-demonstrations
+    waitForTimeout: 10000
+  - name: /cms-innovation-center-programs/strong-start-for-mothers-and-newborns-initiative/strong-start-awardees
+    url: https://data.cms.gov/cms-innovation-center-programs/strong-start-for-mothers-and-newborns-initiative/strong-start-awardees
+    waitForTimeout: 10000
+  - name: /provider-characteristics/medicare-provider-supplier-enrollment/medicare-provider-and-supplier-taxonomy-crosswalk
+    url: https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/medicare-provider-and-supplier-taxonomy-crosswalk
+    waitForTimeout: 10000
+  - name: /cms-innovation-center-programs/cms-innovation-models-overview/innovation-center-innovation-advisors
+    url: https://data.cms.gov/cms-innovation-center-programs/cms-innovation-models-overview/innovation-center-innovation-advisors
+    waitForTimeout: 10000
+  - name: /cms-innovation-center-programs/cms-innovation-models-overview/innovation-center-model-awardees
+    url: https://data.cms.gov/cms-innovation-center-programs/cms-innovation-models-overview/innovation-center-model-awardees
+    waitForTimeout: 10000
+  - name: /cms-innovation-center-programs/alternative-payments-comprehensive-care-for-joint-replacement-model/comprehensive-care-for-joint-replacement-model-metropolitan-statistical-areas
+    url: https://data.cms.gov/cms-innovation-center-programs/alternative-payments-comprehensive-care-for-joint-replacement-model/comprehensive-care-for-joint-replacement-model-metropolitan-statistical-areas
+    waitForTimeout: 10000
+  - name: /cms-innovation-center-programs/innovation-center-model-summary-information
+    url: https://data.cms.gov/cms-innovation-center-programs/innovation-center-model-summary-information
+    waitForTimeout: 10000
+  - name: /cms-innovation-center-programs/alternative-payments-medicare-diabetes-prevention-program/medicare-diabetes-prevention-program
+    url: https://data.cms.gov/cms-innovation-center-programs/alternative-payments-medicare-diabetes-prevention-program/medicare-diabetes-prevention-program
+    waitForTimeout: 10000
+  - name: /provider-characteristics/medicare-provider-supplier-enrollment/opioid-treatment-program-providers
+    url: https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/opioid-treatment-program-providers
+    waitForTimeout: 10000
+  - name: /provider-characteristics/medicare-provider-supplier-enrollment/revalidation-due-date-list
+    url: https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/revalidation-due-date-list
+    waitForTimeout: 10000
+  - name: /provider-characteristics/medicare-provider-supplier-enrollment/medicare-fee-for-service-public-provider-enrollment
+    url: https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/medicare-fee-for-service-public-provider-enrollment
+    waitForTimeout: 10000
+  - name: /summary-statistics-on-use-and-payments/program-integrity-market-saturation-by-type-of-service/market-saturation-utilization-core-based-statistical-areas
+    url: https://data.cms.gov/summary-statistics-on-use-and-payments/program-integrity-market-saturation-by-type-of-service/market-saturation-utilization-core-based-statistical-areas
+    waitForTimeout: 10000
+  - name: /summary-statistics-on-use-and-payments/program-integrity-market-saturation-by-type-of-service/market-saturation-utilization-state-county
+    url: https://data.cms.gov/summary-statistics-on-use-and-payments/program-integrity-market-saturation-by-type-of-service/market-saturation-utilization-state-county
+    waitForTimeout: 10000
+  - name: /provider-characteristics/medicare-provider-supplier-enrollment/fiscal-intermediary-shared-system-attending-and-rendering
+    url: https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/fiscal-intermediary-shared-system-attending-and-rendering
+    waitForTimeout: 10000
+  - name: /provider-characteristics/medicare-provider-supplier-enrollment/order-and-referring
+    url: https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/order-and-referring
+    waitForTimeout: 10000
+  - name: /quality-of-care/deficit-reduction-act-hospital-acquired-condition-measures
+    url: https://data.cms.gov/quality-of-care/deficit-reduction-act-hospital-acquired-condition-measures
+    waitForTimeout: 10000
+  - name: /quality-of-care/agency-for-healthcare-research-and-quality-ahrq-patient-safety-indicator-11-psi-11-measure-rates
+    url: https://data.cms.gov/quality-of-care/agency-for-healthcare-research-and-quality-ahrq-patient-safety-indicator-11-psi-11-measure-rates
+    waitForTimeout: 10000
+  - name: /summary-statistics-on-use-and-payments/physiciansupplier-procedure-summary
+    url: https://data.cms.gov/summary-statistics-on-use-and-payments/physiciansupplier-procedure-summary
+    waitForTimeout: 10000
+  - name: /provider-summary-by-type-of-service/medicare-inpatient-hospitals/hospital-service-area
+    url: https://data.cms.gov/provider-summary-by-type-of-service/medicare-inpatient-hospitals/hospital-service-area
+    waitForTimeout: 10000
+  - name: /medicare-current-beneficiary-survey-mcbs/medicare-current-beneficiary-survey-covid-19-supplement
+    url: https://data.cms.gov/medicare-current-beneficiary-survey-mcbs/medicare-current-beneficiary-survey-covid-19-supplement
+    waitForTimeout: 10000
+  - name: /quality-of-care/quality-payment-program-experience
+    url: https://data.cms.gov/quality-of-care/quality-payment-program-experience
+    waitForTimeout: 10000
+  - name: /provider-characteristics/medicare-provider-supplier-enrollment/revalidation-reassignment-list
+    url: https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/revalidation-reassignment-list
+    waitForTimeout: 10000
+  - name: /provider-characteristics/medicare-provider-supplier-enrollment/revalidation-clinic-group-practice-reassignment
+    url: https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/revalidation-clinic-group-practice-reassignment
+    waitForTimeout: 10000
+  - name: /provider-characteristics/medicare-provider-supplier-enrollment/home-infusion-therapy-providers
+    url: https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/home-infusion-therapy-providers
+    waitForTimeout: 10000
+  - name: /provider-summary-by-type-of-service/provider-service-classifications/restructured-betos-classification-system
+    url: https://data.cms.gov/provider-summary-by-type-of-service/provider-service-classifications/restructured-betos-classification-system
+    waitForTimeout: 10000
+  - name: /provider-compliance/cost-report/skilled-nursing-facility-cost-report
+    url: https://data.cms.gov/provider-compliance/cost-report/skilled-nursing-facility-cost-report
+    waitForTimeout: 10000
+  - name: /covid-19/medicare-covid-19-hospitalization-trends
+    url: https://data.cms.gov/covid-19/medicare-covid-19-hospitalization-trends
+    waitForTimeout: 10000
+  - name: /provider-characteristics/hospitals-and-other-facilities/medicare-clinical-laboratory-fee-schedule-private-payer-rates-and-volumes
+    url: https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/medicare-clinical-laboratory-fee-schedule-private-payer-rates-and-volumes
+    waitForTimeout: 10000
+  - name: /provider-compliance/public-reporting-of-missing-digital-contact-information
+    url: https://data.cms.gov/provider-compliance/public-reporting-of-missing-digital-contact-information
+    waitForTimeout: 10000
+  - name: /summary-statistics-on-use-and-payments/medicare-service-type-reports/medicare-telehealth-trends
+    url: https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-service-type-reports/medicare-telehealth-trends
+    waitForTimeout: 10000
+  - name: /summary-statistics-on-use-and-payments/medicare-medicaid-spending-by-drug/medicare-part-b-discarded-drug-units
+    url: https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-medicaid-spending-by-drug/medicare-part-b-discarded-drug-units
+    waitForTimeout: 10000
+  - name: /provider-characteristics/hospitals-and-other-facilities/hospital-change-of-ownership
+    url: https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/hospital-change-of-ownership
+    waitForTimeout: 10000
+  - name: /provider-characteristics/hospitals-and-other-facilities/hospital-change-of-ownership-owner-information
+    url: https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/hospital-change-of-ownership-owner-information
+    waitForTimeout: 10000
+  - name: /provider-characteristics/hospitals-and-other-facilities/skilled-nursing-facility-change-of-ownership
+    url: https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/skilled-nursing-facility-change-of-ownership
+    waitForTimeout: 10000
+  - name: /provider-characteristics/hospitals-and-other-facilities/skilled-nursing-facility-change-of-ownership-owner-information
+    url: https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/skilled-nursing-facility-change-of-ownership-owner-information
+    waitForTimeout: 10000
+  - name: /provider-characteristics/hospitals-and-other-facilities/skilled-nursing-facility-enrollments
+    url: https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/skilled-nursing-facility-enrollments
+    waitForTimeout: 10000
+  - name: /provider-characteristics/hospitals-and-other-facilities/skilled-nursing-facility-all-owners
+    url: https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/skilled-nursing-facility-all-owners
+    waitForTimeout: 10000
+  - name: /provider-summary-by-type-of-service/medicare-post-acute-care-hospice/medicare-post-acute-care-and-hospice-by-geography-provider
+    url: https://data.cms.gov/provider-summary-by-type-of-service/medicare-post-acute-care-hospice/medicare-post-acute-care-and-hospice-by-geography-provider
+    waitForTimeout: 10000
+  - name: /summary-statistics-on-use-and-payments/medicare-service-type-reports/cms-program-statistics-medicare-advantage-inpatient-hospital
+    url: https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-service-type-reports/cms-program-statistics-medicare-advantage-inpatient-hospital
+    waitForTimeout: 10000
+  - name: /provider-characteristics/hospitals-and-other-facilities/hospital-enrollments
+    url: https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/hospital-enrollments
+    waitForTimeout: 10000
+  - name: /provider-characteristics/hospitals-and-other-facilities/hospital-all-owners
+    url: https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/hospital-all-owners
+    waitForTimeout: 10000
+  - name: /summary-statistics-on-use-and-payments/medicare-geographic-comparisons/medicare-advantage-geographic-variation-national-state
+    url: https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-geographic-comparisons/medicare-advantage-geographic-variation-national-state
+    waitForTimeout: 10000
+  - name: /medicare-current-beneficiary-survey-mcbs/medicare-current-beneficiary-survey-cost-supplement
+    url: https://data.cms.gov/medicare-current-beneficiary-survey-mcbs/medicare-current-beneficiary-survey-cost-supplement
+    waitForTimeout: 10000
+  - name: /provider-characteristics/hospitals-and-other-facilities/hospice-enrollments
+    url: https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/hospice-enrollments
+    waitForTimeout: 10000
+  - name: /provider-characteristics/hospitals-and-other-facilities/hospice-all-owners
+    url: https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/hospice-all-owners
+    waitForTimeout: 10000
+  - name: /provider-characteristics/hospitals-and-other-facilities/home-health-agency-enrollments
+    url: https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/home-health-agency-enrollments
+    waitForTimeout: 10000
+  - name: /provider-characteristics/hospitals-and-other-facilities/home-health-agency-all-owners
+    url: https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/home-health-agency-all-owners
+    waitForTimeout: 10000
+  - name: /cms-innovation-center-programs/aco-realizing-equity-access-and-community-health/realizing-equity-access-and-community-health-acos
+    url: https://data.cms.gov/cms-innovation-center-programs/aco-realizing-equity-access-and-community-health/realizing-equity-access-and-community-health-acos
+    waitForTimeout: 10000
+  - name: /quality-of-care/nursing-home-affiliated-entity-performance-measures
+    url: https://data.cms.gov/quality-of-care/nursing-home-affiliated-entity-performance-measures
+    waitForTimeout: 10000
+  - name: /quality-of-care/payroll-based-journal-employee-detail-nursing-home-staffing
+    url: https://data.cms.gov/quality-of-care/payroll-based-journal-employee-detail-nursing-home-staffing
+    waitForTimeout: 10000
+  - name: /quality-of-care/minimum-data-set-frequency
+    url: https://data.cms.gov/quality-of-care/minimum-data-set-frequency
+    waitForTimeout: 10000
+  - name: /cms-innovation-center-programs/aco-realizing-equity-access-and-community-health/aco-realizing-equity-access-and-community-health-aligned-beneficiaries
+    url: https://data.cms.gov/cms-innovation-center-programs/aco-realizing-equity-access-and-community-health/aco-realizing-equity-access-and-community-health-aligned-beneficiaries
+    waitForTimeout: 10000
+  - name: /cms-innovation-center-programs/aco-realizing-equity-access-and-community-health/aco-realizing-equity-access-and-community-health-eligible-beneficiaries
+    url: https://data.cms.gov/cms-innovation-center-programs/aco-realizing-equity-access-and-community-health/aco-realizing-equity-access-and-community-health-eligible-beneficiaries
+    waitForTimeout: 10000
+  - name: /cms-innovation-center-programs/aco-realizing-equity-access-and-community-health/aco-realizing-equity-access-and-community-health-financial-and-quality-results
+    url: https://data.cms.gov/cms-innovation-center-programs/aco-realizing-equity-access-and-community-health/aco-realizing-equity-access-and-community-health-financial-and-quality-results
+    waitForTimeout: 10000
+  - name: /cms-innovation-center-programs/aco-realizing-equity-access-and-community-health/aco-realizing-equity-access-and-community-health-providers
+    url: https://data.cms.gov/cms-innovation-center-programs/aco-realizing-equity-access-and-community-health/aco-realizing-equity-access-and-community-health-providers
+    waitForTimeout: 10000
+  - name: /cms-innovation-center-programs/pioneer-aco-model/pioneer-aco-model
+    url: https://data.cms.gov/cms-innovation-center-programs/pioneer-aco-model/pioneer-aco-model
+    waitForTimeout: 10000
+  - name: /provider-summary-by-type-of-service/medicare-inpatient-hospitals/medicare-inpatient-hospitals-by-provider
+    url: https://data.cms.gov/provider-summary-by-type-of-service/medicare-inpatient-hospitals/medicare-inpatient-hospitals-by-provider
+    waitForTimeout: 10000
+  - name: /summary-statistics-on-use-and-payments/medicare-service-type-reports/cms-program-statistics-medicare-advantage-skilled-nursing-facility
+    url: https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-service-type-reports/cms-program-statistics-medicare-advantage-skilled-nursing-facility
+    waitForTimeout: 10000
+  - name: /cms-innovation-center-programs/end-stage-renal-disease-treatment-choices-model/managing-clinician-aggregation-group-performance
+    url: https://data.cms.gov/cms-innovation-center-programs/end-stage-renal-disease-treatment-choices-model/managing-clinician-aggregation-group-performance
+    waitForTimeout: 10000
+  - name: /cms-innovation-center-programs/end-stage-renal-disease-treatment-choices-model/end-stage-renal-disease-facility-aggregation-group-performance
+    url: https://data.cms.gov/cms-innovation-center-programs/end-stage-renal-disease-treatment-choices-model/end-stage-renal-disease-facility-aggregation-group-performance
+    waitForTimeout: 10000
+  - name: /provider-characteristics/hospitals-and-other-facilities/federally-qualified-health-center-enrollments
+    url: https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/federally-qualified-health-center-enrollments
+    waitForTimeout: 10000
+  - name: /provider-characteristics/hospitals-and-other-facilities/federally-qualified-health-center-all-owners
+    url: https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/federally-qualified-health-center-all-owners
+    waitForTimeout: 10000
+  - name: /provider-characteristics/hospitals-and-other-facilities/rural-health-clinic-enrollments
+    url: https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/rural-health-clinic-enrollments
+    waitForTimeout: 10000
+  - name: /provider-characteristics/hospitals-and-other-facilities/rural-health-clinic-all-owners
+    url: https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/rural-health-clinic-all-owners
+    waitForTimeout: 10000
+  - name: /provider-summary-by-type-of-service/medicare-part-d-prescribers/monthly-prescription-drug-plan-formulary-and-pharmacy-network-information
+    url: https://data.cms.gov/provider-summary-by-type-of-service/medicare-part-d-prescribers/monthly-prescription-drug-plan-formulary-and-pharmacy-network-information
+    waitForTimeout: 10000
+  - name: /provider-summary-by-type-of-service/medicare-part-d-prescribers/quarterly-prescription-drug-plan-formulary-pharmacy-network-and-pricing-information
+    url: https://data.cms.gov/provider-summary-by-type-of-service/medicare-part-d-prescribers/quarterly-prescription-drug-plan-formulary-pharmacy-network-and-pricing-information
+    waitForTimeout: 10000
+  - name: /provider-compliance/cost-report/home-health-agency-cost-report
+    url: https://data.cms.gov/provider-compliance/cost-report/home-health-agency-cost-report
+    waitForTimeout: 10000
+  - name: /medicare-shared-savings-program/advance-investment-payment-spend-plan
+    url: https://data.cms.gov/medicare-shared-savings-program/advance-investment-payment-spend-plan
+    waitForTimeout: 10000
+  - name: /provider-characteristics/hospitals-and-other-facilities/hospital-price-transparency-enforcement-activities-and-outcomes
+    url: https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/hospital-price-transparency-enforcement-activities-and-outcomes
+    waitForTimeout: 10000
+  - name: /provider-characteristics/hospitals-and-other-facilities/provider-of-services-file-internet-quality-improvement-and-evaluation-system-home-health-agency-ambulatory-surgical-center-and-hospice-providers
+    url: https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/provider-of-services-file-internet-quality-improvement-and-evaluation-system-home-health-agency-ambulatory-surgical-center-and-hospice-providers
+    waitForTimeout: 10000
+  - name: /medicare-chronic-conditions
+    url: https://data.cms.gov/medicare-chronic-conditions
+    waitForTimeout: 10000
+  - name: /provider-summary-by-type-of-service
+    url: https://data.cms.gov/provider-summary-by-type-of-service
+    waitForTimeout: 10000
+  - name: /summary-statistics-on-use-and-payments
+    url: https://data.cms.gov/summary-statistics-on-use-and-payments
+    waitForTimeout: 10000
+  - name: /provider-summary-by-type-of-service/medicare-physician-other-practitioners
+    url: https://data.cms.gov/provider-summary-by-type-of-service/medicare-physician-other-practitioners
+    waitForTimeout: 10000
+  - name: /provider-summary-by-type-of-service/medicare-inpatient-hospitals
+    url: https://data.cms.gov/provider-summary-by-type-of-service/medicare-inpatient-hospitals
+    waitForTimeout: 10000
+  - name: /provider-summary-by-type-of-service/medicare-outpatient-hospitals
+    url: https://data.cms.gov/provider-summary-by-type-of-service/medicare-outpatient-hospitals
+    waitForTimeout: 10000
+  - name: /provider-summary-by-type-of-service/medicare-durable-medical-equipment-devices-supplies
+    url: https://data.cms.gov/provider-summary-by-type-of-service/medicare-durable-medical-equipment-devices-supplies
+    waitForTimeout: 10000
+  - name: /provider-summary-by-type-of-service/medicare-post-acute-care-hospice
+    url: https://data.cms.gov/provider-summary-by-type-of-service/medicare-post-acute-care-hospice
+    waitForTimeout: 10000
+  - name: /provider-summary-by-type-of-service/medicare-part-d-prescribers
+    url: https://data.cms.gov/provider-summary-by-type-of-service/medicare-part-d-prescribers
+    waitForTimeout: 10000
+  - name: /summary-statistics-on-use-and-payments/medicare-medicaid-opioid-prescribing-rates
+    url: https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-medicaid-opioid-prescribing-rates
+    waitForTimeout: 10000
+  - name: /summary-statistics-on-use-and-payments/medicare-service-type-reports
+    url: https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-service-type-reports
+    waitForTimeout: 10000
+  - name: /summary-statistics-on-use-and-payments/medicare-premium-reports
+    url: https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-premium-reports
+    waitForTimeout: 10000
+  - name: /summary-statistics-on-use-and-payments/medicare-geographic-comparisons
+    url: https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-geographic-comparisons
+    waitForTimeout: 10000
+  - name: /summary-statistics-on-use-and-payments/medicare-medicaid-spending-by-drug
+    url: https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-medicaid-spending-by-drug
+    waitForTimeout: 10000
+  - name: /provider-characteristics
+    url: https://data.cms.gov/provider-characteristics
+    waitForTimeout: 10000
+  - name: /summary-statistics-on-provider-enrollment
+    url: https://data.cms.gov/summary-statistics-on-provider-enrollment
+    waitForTimeout: 10000
+  - name: /summary-statistics-on-beneficiary-enrollment
+    url: https://data.cms.gov/summary-statistics-on-beneficiary-enrollment
+    waitForTimeout: 10000
+  - name: /medicare-current-beneficiary-survey-mcbs
+    url: https://data.cms.gov/medicare-current-beneficiary-survey-mcbs
+    waitForTimeout: 10000
+  - name: /summary-statistics-on-beneficiary-enrollment/medicare-and-medicaid-reports
+    url: https://data.cms.gov/summary-statistics-on-beneficiary-enrollment/medicare-and-medicaid-reports
+    waitForTimeout: 10000
+  - name: /summary-statistics-on-use-and-payments/program-integrity-market-saturation-by-type-of-service
+    url: https://data.cms.gov/summary-statistics-on-use-and-payments/program-integrity-market-saturation-by-type-of-service
+    waitForTimeout: 10000
+  - name: /summary-statistics-on-provider-enrollment/medicare-provider-type-reports
+    url: https://data.cms.gov/summary-statistics-on-provider-enrollment/medicare-provider-type-reports
+    waitForTimeout: 10000
+  - name: /provider-characteristics/hospitals-and-other-facilities
+    url: https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities
+    waitForTimeout: 10000
+  - name: /provider-characteristics/medicare-provider-supplier-enrollment
+    url: https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment
+    waitForTimeout: 10000
+  - name: /quality-of-care
+    url: https://data.cms.gov/quality-of-care
+    waitForTimeout: 10000
+  - name: /medicare-shared-savings-program
+    url: https://data.cms.gov/medicare-shared-savings-program
+    waitForTimeout: 10000
+  - name: /cms-innovation-center-programs
+    url: https://data.cms.gov/cms-innovation-center-programs
+    waitForTimeout: 10000
+  - name: /provider-compliance
+    url: https://data.cms.gov/provider-compliance
+    waitForTimeout: 10000
+  - name: /cms-innovation-center-programs/cms-innovation-models-overview
+    url: https://data.cms.gov/cms-innovation-center-programs/cms-innovation-models-overview
+    waitForTimeout: 10000
+  - name: /cms-innovation-center-programs/alternative-payments-comprehensive-care-for-joint-replacement-model
+    url: https://data.cms.gov/cms-innovation-center-programs/alternative-payments-comprehensive-care-for-joint-replacement-model
+    waitForTimeout: 10000
+  - name: /cms-innovation-center-programs/alternative-payments-medicare-diabetes-prevention-program
+    url: https://data.cms.gov/cms-innovation-center-programs/alternative-payments-medicare-diabetes-prevention-program
+    waitForTimeout: 10000
+  - name: /cms-innovation-center-programs/alternative-payments-comprehensive-primary-care-initiative-participating-primary-care-practices
+    url: https://data.cms.gov/cms-innovation-center-programs/alternative-payments-comprehensive-primary-care-initiative-participating-primary-care-practices
+    waitForTimeout: 10000
+  - name: /cms-innovation-center-programs/strong-start-for-mothers-and-newborns-initiative
+    url: https://data.cms.gov/cms-innovation-center-programs/strong-start-for-mothers-and-newborns-initiative
+    waitForTimeout: 10000
+  - name: /provider-compliance/cost-report
+    url: https://data.cms.gov/provider-compliance/cost-report
+    waitForTimeout: 10000
+  - name: /provider-compliance/fee-for-service-error-rate-improper-payment
+    url: https://data.cms.gov/provider-compliance/fee-for-service-error-rate-improper-payment
+    waitForTimeout: 10000
+  - name: /covid-19
+    url: https://data.cms.gov/covid-19
+    waitForTimeout: 10000
+  - name: /medicare-value-based-payment-modifier-program
+    url: https://data.cms.gov/medicare-value-based-payment-modifier-program
+    waitForTimeout: 10000
+  - name: /provider-summary-by-type-of-service/provider-service-classifications
+    url: https://data.cms.gov/provider-summary-by-type-of-service/provider-service-classifications
+    waitForTimeout: 10000
+  - name: /cms-innovation-center-programs/aco-realizing-equity-access-and-community-health
+    url: https://data.cms.gov/cms-innovation-center-programs/aco-realizing-equity-access-and-community-health
+    waitForTimeout: 10000
+  - name: /cms-innovation-center-programs/pioneer-aco-model
+    url: https://data.cms.gov/cms-innovation-center-programs/pioneer-aco-model
+    waitForTimeout: 10000
+  - name: /cms-innovation-center-programs/end-stage-renal-disease-treatment-choices-model
+    url: https://data.cms.gov/cms-innovation-center-programs/end-stage-renal-disease-treatment-choices-model
+    waitForTimeout: 10000
+  - name: /provider-characteristics/medicare-provider-supplier-enrollment/order-and-referring/data
+    url: https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/order-and-referring/data
+    waitForTimeout: 10000
+  - name: /provider-characteristics/medicare-provider-supplier-enrollment/order-and-referring/data?query=%7B%22filters%22%3A%7B%22rootConjunction%22%3A%7B%22label%22%3A%22And%22%2C%22value%22%3A%22AND%22%7D%2C%22list%22%3A%5B%5D%7D%2C%22keywords%22%3A%22Gupta%22%2C%22offset%22%3A0%2C%22limit%22%3A10%2C%22sort%22%3A%7B%22sortBy%22%3Anull%2C%22sortOrder%22%3Anull%7D%2C%22columns%22%3A%5B%5D%7D
+    url: https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/order-and-referring/data?query=%7B%22filters%22%3A%7B%22rootConjunction%22%3A%7B%22label%22%3A%22And%22%2C%22value%22%3A%22AND%22%7D%2C%22list%22%3A%5B%5D%7D%2C%22keywords%22%3A%22Gupta%22%2C%22offset%22%3A0%2C%22limit%22%3A10%2C%22sort%22%3A%7B%22sortBy%22%3Anull%2C%22sortOrder%22%3Anull%7D%2C%22columns%22%3A%5B%5D%7D
+    waitForTimeout: 10000
+  - name: /provider-characteristics/medicare-provider-supplier-enrollment/order-and-referring/data?query=%7B%22filters%22%3A%7B%22rootConjunction%22%3A%7B%22label%22%3A%22And%22%2C%22value%22%3A%22AND%22%7D%2C%22list%22%3A%5B%5D%7D%2C%22keywords%22%3A%22%22%2C%22offset%22%3A0%2C%22limit%22%3A10%2C%22sort%22%3A%7B%22sortBy%22%3Anull%2C%22sortOrder%22%3Anull%7D%2C%22columns%22%3A%5B%22NPI%22%2C%22LAST_NAME%22%2C%22PARTB%22%2C%22DME%22%2C%22HHA%22%2C%22PMD%22%5D%7D
+    url: https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/order-and-referring/data?query=%7B%22filters%22%3A%7B%22rootConjunction%22%3A%7B%22label%22%3A%22And%22%2C%22value%22%3A%22AND%22%7D%2C%22list%22%3A%5B%5D%7D%2C%22keywords%22%3A%22%22%2C%22offset%22%3A0%2C%22limit%22%3A10%2C%22sort%22%3A%7B%22sortBy%22%3Anull%2C%22sortOrder%22%3Anull%7D%2C%22columns%22%3A%5B%22NPI%22%2C%22LAST_NAME%22%2C%22PARTB%22%2C%22DME%22%2C%22HHA%22%2C%22PMD%22%5D%7D
+    waitForTimeout: 10000
+  - name: /provider-characteristics/medicare-provider-supplier-enrollment/order-and-referring/data?query=%7B%22filters%22%3A%7B%22list%22%3A%5B%7B%22conditions%22%3A%5B%7B%22column%22%3A%7B%22value%22%3A%22LAST_NAME%22%7D%2C%22comparator%22%3A%7B%22value%22%3A%22%3D%22%7D%2C%22filterValue%22%3A%5B%22Gupta%22%5D%7D%5D%7D%5D%2C%22rootConjunction%22%3A%7B%22value%22%3A%22AND%22%7D%7D%2C%22keywords%22%3A%22%22%2C%22offset%22%3A0%2C%22limit%22%3A10%2C%22sort%22%3A%7B%22sortBy%22%3Anull%2C%22sortOrder%22%3Anull%7D%2C%22columns%22%3A%5B%5D%7D
+    url: https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/order-and-referring/data?query=%7B%22filters%22%3A%7B%22list%22%3A%5B%7B%22conditions%22%3A%5B%7B%22column%22%3A%7B%22value%22%3A%22LAST_NAME%22%7D%2C%22comparator%22%3A%7B%22value%22%3A%22%3D%22%7D%2C%22filterValue%22%3A%5B%22Gupta%22%5D%7D%5D%7D%5D%2C%22rootConjunction%22%3A%7B%22value%22%3A%22AND%22%7D%7D%2C%22keywords%22%3A%22%22%2C%22offset%22%3A0%2C%22limit%22%3A10%2C%22sort%22%3A%7B%22sortBy%22%3Anull%2C%22sortOrder%22%3Anull%7D%2C%22columns%22%3A%5B%5D%7D
+    waitForTimeout: 10000
+  - name: /provider-characteristics/medicare-provider-supplier-enrollment/order-and-referring/data?query=%7B%22filters%22%3A%7B%22list%22%3A%5B%7B%22conjunction%22%3A%7B%22value%22%3A%22AND%22%7D%2C%22conditions%22%3A%5B%7B%22column%22%3A%7B%22value%22%3A%22LAST_NAME%22%7D%2C%22comparator%22%3A%7B%22value%22%3A%22%3D%22%7D%2C%22filterValue%22%3A%5B%22Gupta%22%5D%7D%5D%7D%5D%2C%22rootConjunction%22%3A%7B%22value%22%3A%22AND%22%7D%7D%2C%22keywords%22%3A%22%22%2C%22offset%22%3A0%2C%22limit%22%3A10%2C%22sort%22%3A%7B%22sortBy%22%3Anull%2C%22sortOrder%22%3Anull%7D%2C%22columns%22%3A%5B%5D%7D
+    url: https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/order-and-referring/data?query=%7B%22filters%22%3A%7B%22list%22%3A%5B%7B%22conjunction%22%3A%7B%22value%22%3A%22AND%22%7D%2C%22conditions%22%3A%5B%7B%22column%22%3A%7B%22value%22%3A%22LAST_NAME%22%7D%2C%22comparator%22%3A%7B%22value%22%3A%22%3D%22%7D%2C%22filterValue%22%3A%5B%22Gupta%22%5D%7D%5D%7D%5D%2C%22rootConjunction%22%3A%7B%22value%22%3A%22AND%22%7D%7D%2C%22keywords%22%3A%22%22%2C%22offset%22%3A0%2C%22limit%22%3A10%2C%22sort%22%3A%7B%22sortBy%22%3Anull%2C%22sortOrder%22%3Anull%7D%2C%22columns%22%3A%5B%5D%7D
+    waitForTimeout: 10000
+  - name: /provider-characteristics/medicare-provider-supplier-enrollment/opt-out-affidavits/data
+    url: https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/opt-out-affidavits/data
+    waitForTimeout: 10000
+  - name: /provider-characteristics/medicare-provider-supplier-enrollment/opt-out-affidavits/data?query=%7B%22filters%22%3A%7B%22rootConjunction%22%3A%7B%22label%22%3A%22And%22%2C%22value%22%3A%22AND%22%7D%2C%22list%22%3A%5B%5D%7D%2C%22keywords%22%3A%22Gupta%22%2C%22offset%22%3A0%2C%22limit%22%3A10%2C%22sort%22%3A%7B%22sortBy%22%3Anull%2C%22sortOrder%22%3Anull%7D%2C%22columns%22%3A%5B%5D%7D
+    url: https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/opt-out-affidavits/data?query=%7B%22filters%22%3A%7B%22rootConjunction%22%3A%7B%22label%22%3A%22And%22%2C%22value%22%3A%22AND%22%7D%2C%22list%22%3A%5B%5D%7D%2C%22keywords%22%3A%22Gupta%22%2C%22offset%22%3A0%2C%22limit%22%3A10%2C%22sort%22%3A%7B%22sortBy%22%3Anull%2C%22sortOrder%22%3Anull%7D%2C%22columns%22%3A%5B%5D%7D
+    waitForTimeout: 10000
+  - name: /provider-characteristics/medicare-provider-supplier-enrollment/opt-out-affidavits/data?query=%7B%22filters%22%3A%7B%22rootConjunction%22%3A%7B%22label%22%3A%22And%22%2C%22value%22%3A%22AND%22%7D%2C%22list%22%3A%5B%5D%7D%2C%22keywords%22%3A%22%22%2C%22offset%22%3A0%2C%22limit%22%3A10%2C%22sort%22%3A%7B%22sortBy%22%3Anull%2C%22sortOrder%22%3Anull%7D%2C%22columns%22%3A%5B%22First%20Name%22%2C%22Last%20Name%22%2C%22Specialty%22%2C%22Optout%20Effective%20Date%22%2C%22Optout%20End%20Date%22%2C%22First%20Line%20Street%20Address%22%2C%22Second%20Line%20Street%20Address%22%2C%22City%20Name%22%2C%22State%20Code%22%2C%22Zip%20code%22%2C%22Eligible%20to%20Order%20and%20Refer%22%2C%22Last%20updated%22%5D%7D
+    url: https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/opt-out-affidavits/data?query=%7B%22filters%22%3A%7B%22rootConjunction%22%3A%7B%22label%22%3A%22And%22%2C%22value%22%3A%22AND%22%7D%2C%22list%22%3A%5B%5D%7D%2C%22keywords%22%3A%22%22%2C%22offset%22%3A0%2C%22limit%22%3A10%2C%22sort%22%3A%7B%22sortBy%22%3Anull%2C%22sortOrder%22%3Anull%7D%2C%22columns%22%3A%5B%22First%20Name%22%2C%22Last%20Name%22%2C%22Specialty%22%2C%22Optout%20Effective%20Date%22%2C%22Optout%20End%20Date%22%2C%22First%20Line%20Street%20Address%22%2C%22Second%20Line%20Street%20Address%22%2C%22City%20Name%22%2C%22State%20Code%22%2C%22Zip%20code%22%2C%22Eligible%20to%20Order%20and%20Refer%22%2C%22Last%20updated%22%5D%7D
+    waitForTimeout: 10000
+  - name: provider-characteristics/medicare-provider-supplier-enrollment/opt-out-affidavits/data?query=%7B%22filters%22%3A%7B%22list%22%3A%5B%7B%22conditions%22%3A%5B%7B%22column%22%3A%7B%22value%22%3A%22Last%20Name%22%7D%2C%22comparator%22%3A%7B%22value%22%3A%22%3D%22%7D%2C%22filterValue%22%3A%5B%22Gupta%22%5D%7D%5D%7D%5D%2C%22rootConjunction%22%3A%7B%22value%22%3A%22AND%22%7D%7D%2C%22keywords%22%3A%22%22%2C%22offset%22%3A0%2C%22limit%22%3A10%2C%22sort%22%3A%7B%22sortBy%22%3Anull%2C%22sortOrder%22%3Anull%7D%2C%22columns%22%3A%5B%5D%7D
+    url: https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/opt-out-affidavits/data?query=%7B%22filters%22%3A%7B%22list%22%3A%5B%7B%22conditions%22%3A%5B%7B%22column%22%3A%7B%22value%22%3A%22Last%20Name%22%7D%2C%22comparator%22%3A%7B%22value%22%3A%22%3D%22%7D%2C%22filterValue%22%3A%5B%22Gupta%22%5D%7D%5D%7D%5D%2C%22rootConjunction%22%3A%7B%22value%22%3A%22AND%22%7D%7D%2C%22keywords%22%3A%22%22%2C%22offset%22%3A0%2C%22limit%22%3A10%2C%22sort%22%3A%7B%22sortBy%22%3Anull%2C%22sortOrder%22%3Anull%7D%2C%22columns%22%3A%5B%5D%7D
+    waitForTimeout: 10000
+  - name: /provider-characteristics/medicare-provider-supplier-enrollment/opt-out-affidavits/data?query=%7B%22filters%22%3A%7B%22list%22%3A%5B%7B%22conjunction%22%3A%7B%22value%22%3A%22AND%22%7D%2C%22conditions%22%3A%5B%7B%22column%22%3A%7B%22value%22%3A%22Last%20Name%22%7D%2C%22comparator%22%3A%7B%22value%22%3A%22%3D%22%7D%2C%22filterValue%22%3A%5B%22Gupta%22%5D%7D%5D%7D%5D%2C%22rootConjunction%22%3A%7B%22value%22%3A%22AND%22%7D%7D%2C%22keywords%22%3A%22%22%2C%22offset%22%3A0%2C%22limit%22%3A10%2C%22sort%22%3A%7B%22sortBy%22%3Anull%2C%22sortOrder%22%3Anull%7D%2C%22columns%22%3A%5B%5D%7D
+    url: https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/opt-out-affidavits/data?query=%7B%22filters%22%3A%7B%22list%22%3A%5B%7B%22conjunction%22%3A%7B%22value%22%3A%22AND%22%7D%2C%22conditions%22%3A%5B%7B%22column%22%3A%7B%22value%22%3A%22Last%20Name%22%7D%2C%22comparator%22%3A%7B%22value%22%3A%22%3D%22%7D%2C%22filterValue%22%3A%5B%22Gupta%22%5D%7D%5D%7D%5D%2C%22rootConjunction%22%3A%7B%22value%22%3A%22AND%22%7D%7D%2C%22keywords%22%3A%22%22%2C%22offset%22%3A0%2C%22limit%22%3A10%2C%22sort%22%3A%7B%22sortBy%22%3Anull%2C%22sortOrder%22%3Anull%7D%2C%22columns%22%3A%5B%5D%7D
+    waitForTimeout: 10000
+  - name: /covid-19/covid-19-nursing-home-data/data
+    url: https://data.cms.gov/covid-19/covid-19-nursing-home-data/data
+    waitForTimeout: 10000
+  - name: /covid-19/covid-19-nursing-home-data/data?query=%7B%22filters%22%3A%7B%22rootConjunction%22%3A%7B%22label%22%3A%22And%22%2C%22value%22%3A%22AND%22%7D%2C%22list%22%3A%5B%5D%7D%2C%22keywords%22%3A%22EASTERN%20SHORE%20REHABILITATION%20AND%20HEALTH%20CENTER%22%2C%22offset%22%3A0%2C%22limit%22%3A10%2C%22sort%22%3A%7B%22sortBy%22%3Anull%2C%22sortOrder%22%3Anull%7D%2C%22columns%22%3A%5B%5D%7D
+    url: https://data.cms.gov/covid-19/covid-19-nursing-home-data/data?query=%7B%22filters%22%3A%7B%22rootConjunction%22%3A%7B%22label%22%3A%22And%22%2C%22value%22%3A%22AND%22%7D%2C%22list%22%3A%5B%5D%7D%2C%22keywords%22%3A%22EASTERN%20SHORE%20REHABILITATION%20AND%20HEALTH%20CENTER%22%2C%22offset%22%3A0%2C%22limit%22%3A10%2C%22sort%22%3A%7B%22sortBy%22%3Anull%2C%22sortOrder%22%3Anull%7D%2C%22columns%22%3A%5B%5D%7D
+    waitForTimeout: 10000
+  - name: /covid-19/covid-19-nursing-home-data/data?query=%7B%22filters%22%3A%7B%22rootConjunction%22%3A%7B%22label%22%3A%22And%22%2C%22value%22%3A%22AND%22%7D%2C%22list%22%3A%5B%5D%7D%2C%22keywords%22%3A%22%22%2C%22offset%22%3A0%2C%22limit%22%3A10%2C%22sort%22%3A%7B%22sortBy%22%3Anull%2C%22sortOrder%22%3Anull%7D%2C%22columns%22%3A%5B%22week_ending%22%2C%22federal_provider_number%22%2C%22provider_address%22%2C%22provider_city%22%2C%22provider_state%22%2C%22provider_zip_code%22%2C%22provider_phone_number%22%2C%22county%22%2C%22submitted_data%22%2C%22passed_quality_assurance_check%22%2C%22residents_weekly_confirmed_covid_19%22%2C%22residents_total_confirmed_covid_19%22%2C%22residents_weekly_all_deaths%22%2C%22residents_total_all_deaths%22%2C%22residents_weekly_covid_19_deaths%22%2C%22residents_total_covid_19_deaths%22%2C%22number_of_all_beds%22%2C%22total_number_of_occupied_beds%22%2C%22Residents_Hospitalizations_with_Confirmed_COVID_19%22%2C%22Residents_Hospitalizations_with_Confirmed_COVID_19_and_Up_to_Date_with_Vaccines%22%2C%22staff_weekly_confirmed_covid_19%22%2C%22staff_total_confirmed_covid_19%22%2C%22weekly_resident_confirmed_covid_19_cases_per_1_000_residents%22%2C%22weekly_resident_covid_19_deaths_per_1_000_residents%22%2C%22total_resident_confirmed_covid_19_cases_per_1_000_residents%22%2C%22total_resident_covid_19_deaths_per_1_000_residents%22%2C%22Number_of_Residents_who_are_Up_to_Date_on_COVID_19_Vaccinations__14_Days_or_More_Before_Positive_Test%22%2C%22number_of_residents_staying_in_this_facility_for_at_least_1_day_this_week%22%2C%22number_of_all_healthcare_personnel_eligible_to_work_in_this_facility_for_at_least_1_day_this_week%22%2C%22Number_of_Residents_Staying_in_this_Facility_for_At_Least_1_Day_This_Week_Up_to_Date_with_COVID_19_Vaccines%22%2C%22Recent_Percentage_of_Current_Residents_Up_to_Date_with_COVID_19_Vaccines%22%2C%22Percentage_of_Current_Residents_Up_to_Date_with_COVID_19_Vaccines%22%2C%22Number_of_Healthcare_Personnel_Eligible_to_Work_in_this_Facility_for_At_Least_1_Day_This_Week_Up_to_Date_with_COVID_19_Vaccines%22%2C%22Recent_Percentage_of_Current_Healthcare_Personnel_Up_to_Date_with_COVID_19_Vaccines%22%2C%22Percentage_of_Current_Healthcare_Personnel_Up_to_Date_with_COVID_19_Vaccines%22%5D%7D
+    url: https://data.cms.gov/covid-19/covid-19-nursing-home-data/data?query=%7B%22filters%22%3A%7B%22rootConjunction%22%3A%7B%22label%22%3A%22And%22%2C%22value%22%3A%22AND%22%7D%2C%22list%22%3A%5B%5D%7D%2C%22keywords%22%3A%22%22%2C%22offset%22%3A0%2C%22limit%22%3A10%2C%22sort%22%3A%7B%22sortBy%22%3Anull%2C%22sortOrder%22%3Anull%7D%2C%22columns%22%3A%5B%22week_ending%22%2C%22federal_provider_number%22%2C%22provider_address%22%2C%22provider_city%22%2C%22provider_state%22%2C%22provider_zip_code%22%2C%22provider_phone_number%22%2C%22county%22%2C%22submitted_data%22%2C%22passed_quality_assurance_check%22%2C%22residents_weekly_confirmed_covid_19%22%2C%22residents_total_confirmed_covid_19%22%2C%22residents_weekly_all_deaths%22%2C%22residents_total_all_deaths%22%2C%22residents_weekly_covid_19_deaths%22%2C%22residents_total_covid_19_deaths%22%2C%22number_of_all_beds%22%2C%22total_number_of_occupied_beds%22%2C%22Residents_Hospitalizations_with_Confirmed_COVID_19%22%2C%22Residents_Hospitalizations_with_Confirmed_COVID_19_and_Up_to_Date_with_Vaccines%22%2C%22staff_weekly_confirmed_covid_19%22%2C%22staff_total_confirmed_covid_19%22%2C%22weekly_resident_confirmed_covid_19_cases_per_1_000_residents%22%2C%22weekly_resident_covid_19_deaths_per_1_000_residents%22%2C%22total_resident_confirmed_covid_19_cases_per_1_000_residents%22%2C%22total_resident_covid_19_deaths_per_1_000_residents%22%2C%22Number_of_Residents_who_are_Up_to_Date_on_COVID_19_Vaccinations__14_Days_or_More_Before_Positive_Test%22%2C%22number_of_residents_staying_in_this_facility_for_at_least_1_day_this_week%22%2C%22number_of_all_healthcare_personnel_eligible_to_work_in_this_facility_for_at_least_1_day_this_week%22%2C%22Number_of_Residents_Staying_in_this_Facility_for_At_Least_1_Day_This_Week_Up_to_Date_with_COVID_19_Vaccines%22%2C%22Recent_Percentage_of_Current_Residents_Up_to_Date_with_COVID_19_Vaccines%22%2C%22Percentage_of_Current_Residents_Up_to_Date_with_COVID_19_Vaccines%22%2C%22Number_of_Healthcare_Personnel_Eligible_to_Work_in_this_Facility_for_At_Least_1_Day_This_Week_Up_to_Date_with_COVID_19_Vaccines%22%2C%22Recent_Percentage_of_Current_Healthcare_Personnel_Up_to_Date_with_COVID_19_Vaccines%22%2C%22Percentage_of_Current_Healthcare_Personnel_Up_to_Date_with_COVID_19_Vaccines%22%5D%7D
+    waitForTimeout: 10000
+  - name: /covid-19/covid-19-nursing-home-data/data?query=%7B%22filters%22%3A%7B%22list%22%3A%5B%7B%22conditions%22%3A%5B%7B%22column%22%3A%7B%22value%22%3A%22provider_name%22%7D%2C%22comparator%22%3A%7B%22value%22%3A%22%3D%22%7D%2C%22filterValue%22%3A%5B%22BURNS%20NURSING%20HOME%2C%20INC.%22%5D%7D%5D%7D%5D%2C%22rootConjunction%22%3A%7B%22value%22%3A%22AND%22%7D%7D%2C%22keywords%22%3A%22%22%2C%22offset%22%3A0%2C%22limit%22%3A10%2C%22sort%22%3A%7B%22sortBy%22%3Anull%2C%22sortOrder%22%3Anull%7D%2C%22columns%22%3A%5B%5D%7D
+    url: https://data.cms.gov/covid-19/covid-19-nursing-home-data/data?query=%7B%22filters%22%3A%7B%22list%22%3A%5B%7B%22conditions%22%3A%5B%7B%22column%22%3A%7B%22value%22%3A%22provider_name%22%7D%2C%22comparator%22%3A%7B%22value%22%3A%22%3D%22%7D%2C%22filterValue%22%3A%5B%22BURNS%20NURSING%20HOME%2C%20INC.%22%5D%7D%5D%7D%5D%2C%22rootConjunction%22%3A%7B%22value%22%3A%22AND%22%7D%7D%2C%22keywords%22%3A%22%22%2C%22offset%22%3A0%2C%22limit%22%3A10%2C%22sort%22%3A%7B%22sortBy%22%3Anull%2C%22sortOrder%22%3Anull%7D%2C%22columns%22%3A%5B%5D%7D
+    waitForTimeout: 10000
+  - name: /covid-19/covid-19-nursing-home-data/data?query=%7B%22filters%22%3A%7B%22list%22%3A%5B%7B%22conjunction%22%3A%7B%22value%22%3A%22AND%22%7D%2C%22conditions%22%3A%5B%7B%22column%22%3A%7B%22value%22%3A%22provider_name%22%7D%2C%22comparator%22%3A%7B%22value%22%3A%22%3D%22%7D%2C%22filterValue%22%3A%5B%22BURNS%20NURSING%20HOME%2C%20INC.%22%5D%7D%5D%7D%5D%2C%22rootConjunction%22%3A%7B%22value%22%3A%22AND%22%7D%7D%2C%22keywords%22%3A%22%22%2C%22offset%22%3A0%2C%22limit%22%3A10%2C%22sort%22%3A%7B%22sortBy%22%3Anull%2C%22sortOrder%22%3Anull%7D%2C%22columns%22%3A%5B%5D%7D
+    url: https://data.cms.gov/covid-19/covid-19-nursing-home-data/data?query=%7B%22filters%22%3A%7B%22list%22%3A%5B%7B%22conjunction%22%3A%7B%22value%22%3A%22AND%22%7D%2C%22conditions%22%3A%5B%7B%22column%22%3A%7B%22value%22%3A%22provider_name%22%7D%2C%22comparator%22%3A%7B%22value%22%3A%22%3D%22%7D%2C%22filterValue%22%3A%5B%22BURNS%20NURSING%20HOME%2C%20INC.%22%5D%7D%5D%7D%5D%2C%22rootConjunction%22%3A%7B%22value%22%3A%22AND%22%7D%7D%2C%22keywords%22%3A%22%22%2C%22offset%22%3A0%2C%22limit%22%3A10%2C%22sort%22%3A%7B%22sortBy%22%3Anull%2C%22sortOrder%22%3Anull%7D%2C%22columns%22%3A%5B%5D%7D
+    waitForTimeout: 10000
+  - name: /provider-characteristics/medicare-provider-supplier-enrollment/medicare-fee-for-service-public-provider-enrollment/data
+    url: https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/medicare-fee-for-service-public-provider-enrollment/data
+    waitForTimeout: 10000
+  - name: /provider-characteristics/medicare-provider-supplier-enrollment/medicare-fee-for-service-public-provider-enrollment/data?query=%7B%22filters%22%3A%7B%22rootConjunction%22%3A%7B%22label%22%3A%22And%22%2C%22value%22%3A%22AND%22%7D%2C%22list%22%3A%5B%5D%7D%2C%22keywords%22%3A%22PRACTITIONER%20-%20NURSE%20PRACTITIONER%22%2C%22offset%22%3A0%2C%22limit%22%3A10%2C%22sort%22%3A%7B%22sortBy%22%3Anull%2C%22sortOrder%22%3Anull%7D%2C%22columns%22%3A%5B%5D%7D
+    url: https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/medicare-fee-for-service-public-provider-enrollment/data?query=%7B%22filters%22%3A%7B%22rootConjunction%22%3A%7B%22label%22%3A%22And%22%2C%22value%22%3A%22AND%22%7D%2C%22list%22%3A%5B%5D%7D%2C%22keywords%22%3A%22PRACTITIONER%20-%20NURSE%20PRACTITIONER%22%2C%22offset%22%3A0%2C%22limit%22%3A10%2C%22sort%22%3A%7B%22sortBy%22%3Anull%2C%22sortOrder%22%3Anull%7D%2C%22columns%22%3A%5B%5D%7D
+    waitForTimeout: 10000
+  - name: /provider-characteristics/medicare-provider-supplier-enrollment/medicare-fee-for-service-public-provider-enrollment/data?query=%7B%22filters%22%3A%7B%22rootConjunction%22%3A%7B%22label%22%3A%22And%22%2C%22value%22%3A%22AND%22%7D%2C%22list%22%3A%5B%5D%7D%2C%22keywords%22%3A%22%22%2C%22offset%22%3A0%2C%22limit%22%3A10%2C%22sort%22%3A%7B%22sortBy%22%3Anull%2C%22sortOrder%22%3Anull%7D%2C%22columns%22%3A%5B%22NPI%22%2C%22PECOS_ASCT_CNTL_ID%22%2C%22PROVIDER_TYPE_CD%22%2C%22PROVIDER_TYPE_DESC%22%2C%22STATE_CD%22%2C%22FIRST_NAME%22%2C%22MDL_NAME%22%2C%22LAST_NAME%22%2C%22ORG_NAME%22%2C%22GNDR_SW%22%5D%7D
+    url: https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/medicare-fee-for-service-public-provider-enrollment/data?query=%7B%22filters%22%3A%7B%22rootConjunction%22%3A%7B%22label%22%3A%22And%22%2C%22value%22%3A%22AND%22%7D%2C%22list%22%3A%5B%5D%7D%2C%22keywords%22%3A%22%22%2C%22offset%22%3A0%2C%22limit%22%3A10%2C%22sort%22%3A%7B%22sortBy%22%3Anull%2C%22sortOrder%22%3Anull%7D%2C%22columns%22%3A%5B%22NPI%22%2C%22PECOS_ASCT_CNTL_ID%22%2C%22PROVIDER_TYPE_CD%22%2C%22PROVIDER_TYPE_DESC%22%2C%22STATE_CD%22%2C%22FIRST_NAME%22%2C%22MDL_NAME%22%2C%22LAST_NAME%22%2C%22ORG_NAME%22%2C%22GNDR_SW%22%5D%7D
+    waitForTimeout: 10000
+  - name: /provider-characteristics/medicare-provider-supplier-enrollment/medicare-fee-for-service-public-provider-enrollment/data?query=%7B%22filters%22%3A%7B%22list%22%3A%5B%7B%22conditions%22%3A%5B%7B%22column%22%3A%7B%22value%22%3A%22PROVIDER_TYPE_DESC%22%7D%2C%22comparator%22%3A%7B%22value%22%3A%22%3D%22%7D%2C%22filterValue%22%3A%5B%22PRACTITIONER%20-%20NURSE%20PRACTITIONER%22%5D%7D%5D%7D%5D%2C%22rootConjunction%22%3A%7B%22value%22%3A%22AND%22%7D%7D%2C%22keywords%22%3A%22%22%2C%22offset%22%3A0%2C%22limit%22%3A10%2C%22sort%22%3A%7B%22sortBy%22%3Anull%2C%22sortOrder%22%3Anull%7D%2C%22columns%22%3A%5B%5D%7D
+    url: https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/medicare-fee-for-service-public-provider-enrollment/data?query=%7B%22filters%22%3A%7B%22list%22%3A%5B%7B%22conditions%22%3A%5B%7B%22column%22%3A%7B%22value%22%3A%22PROVIDER_TYPE_DESC%22%7D%2C%22comparator%22%3A%7B%22value%22%3A%22%3D%22%7D%2C%22filterValue%22%3A%5B%22PRACTITIONER%20-%20NURSE%20PRACTITIONER%22%5D%7D%5D%7D%5D%2C%22rootConjunction%22%3A%7B%22value%22%3A%22AND%22%7D%7D%2C%22keywords%22%3A%22%22%2C%22offset%22%3A0%2C%22limit%22%3A10%2C%22sort%22%3A%7B%22sortBy%22%3Anull%2C%22sortOrder%22%3Anull%7D%2C%22columns%22%3A%5B%5D%7D
+    waitForTimeout: 10000
+  - name: /provider-characteristics/medicare-provider-supplier-enrollment/medicare-fee-for-service-public-provider-enrollment/data?query=%7B%22filters%22%3A%7B%22list%22%3A%5B%7B%22conjunction%22%3A%7B%22value%22%3A%22AND%22%7D%2C%22conditions%22%3A%5B%7B%22column%22%3A%7B%22value%22%3A%22PROVIDER_TYPE_DESC%22%7D%2C%22comparator%22%3A%7B%22value%22%3A%22%3D%22%7D%2C%22filterValue%22%3A%5B%22PRACTITIONER%20-%20NURSE%20PRACTITIONER%22%5D%7D%5D%7D%5D%2C%22rootConjunction%22%3A%7B%22value%22%3A%22AND%22%7D%7D%2C%22keywords%22%3A%22%22%2C%22offset%22%3A0%2C%22limit%22%3A10%2C%22sort%22%3A%7B%22sortBy%22%3Anull%2C%22sortOrder%22%3Anull%7D%2C%22columns%22%3A%5B%5D%7D
+    url: https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/medicare-fee-for-service-public-provider-enrollment/data?query=%7B%22filters%22%3A%7B%22list%22%3A%5B%7B%22conjunction%22%3A%7B%22value%22%3A%22AND%22%7D%2C%22conditions%22%3A%5B%7B%22column%22%3A%7B%22value%22%3A%22PROVIDER_TYPE_DESC%22%7D%2C%22comparator%22%3A%7B%22value%22%3A%22%3D%22%7D%2C%22filterValue%22%3A%5B%22PRACTITIONER%20-%20NURSE%20PRACTITIONER%22%5D%7D%5D%7D%5D%2C%22rootConjunction%22%3A%7B%22value%22%3A%22AND%22%7D%7D%2C%22keywords%22%3A%22%22%2C%22offset%22%3A0%2C%22limit%22%3A10%2C%22sort%22%3A%7B%22sortBy%22%3Anull%2C%22sortOrder%22%3Anull%7D%2C%22columns%22%3A%5B%5D%7D
+    waitForTimeout: 10000
+  - name: /tools/medicare-inpatient-hospital-look-up-tool?size=10&offset=0&name=Jackson
+    url: https://data.cms.gov/tools/medicare-inpatient-hospital-look-up-tool?size=10&offset=0&name=Jackson
+    waitForTimeout: 10000
+  - name: /tools/medicare-inpatient-hospital-look-up-tool/provider/100088?size=10&offset=0&name=Jackson
+    url: https://data.cms.gov/tools/medicare-inpatient-hospital-look-up-tool/provider/100088?size=10&offset=0&name=Jackson
+    waitForTimeout: 10000
+  - name: /tools/medicare-part-d-prescriber-look-up-tool?size=10&offset=0&lastName=Jackson
+    url: https://data.cms.gov/tools/medicare-part-d-prescriber-look-up-tool?size=10&offset=0&lastName=Jackson
+    waitForTimeout: 10000
+  - name: /tools/medicare-part-d-prescriber-look-up-tool/provider/1417111667?size=10&offset=0&lastName=Jackson
+    url: https://data.cms.gov/tools/medicare-part-d-prescriber-look-up-tool/provider/1417111667?size=10&offset=0&lastName=Jackson
+    waitForTimeout: 10000
+  - name: /tools/medicare-physician-other-practitioner-look-up-tool?size=10&offset=0&lastName=Jackson
+    url: https://data.cms.gov/tools/medicare-physician-other-practitioner-look-up-tool?size=10&offset=0&lastName=Jackson
+    waitForTimeout: 10000
+  - name: /tools/medicare-physician-other-practitioner-look-up-tool/provider/1821248279?size=10&offset=0&lastName=Jackson
+    url: https://data.cms.gov/tools/medicare-physician-other-practitioner-look-up-tool/provider/1821248279?size=10&offset=0&lastName=Jackson
+    waitForTimeout: 10000
+  - name: /tools/medicare-revalidation-list?size=10&offset=0&firstName=Jackson
+    url: https://data.cms.gov/tools/medicare-revalidation-list?size=10&offset=0&firstName=Jackson
+    waitForTimeout: 10000
+  - name: /tools/medicare-revalidation-list/provider/I20150630001784?size=10&offset=0&firstName=Jackson
+    url: https://data.cms.gov/tools/medicare-revalidation-list/provider/I20150630001784?size=10&offset=0&firstName=Jackson
+    waitForTimeout: 10000
+  - name: /tools/provider-opt-out-affidavits-look-up-tool?size=10&offset=0&firstName=Jackson
+    url: https://data.cms.gov/tools/provider-opt-out-affidavits-look-up-tool?size=10&offset=0&firstName=Jackson
+    waitForTimeout: 10000
+  - name: /tools/market-saturation-utilization-state-county-mapping-tool?referencePeriod=2022-07-01%20to%202023-06-30&healthServiceArea=Ambulance%20(Emergency%20%26%20Non-Emergency)&metric=number_of_fee_for_service_beneficiaries
+    url: https://data.cms.gov/tools/market-saturation-utilization-state-county-mapping-tool?referencePeriod=2022-07-01%20to%202023-06-30&healthServiceArea=Ambulance%20(Emergency%20%26%20Non-Emergency)&metric=number_of_fee_for_service_beneficiaries
+    waitForTimeout: 10000
+  - name: /tools/market-saturation-utilization-state-county-mapping-tool?referencePeriod=2022-01-01%20to%202022-12-31&healthServiceArea=Ambulance%20(Emergency%20%26%20Non-Emergency)&metric=number_of_fee_for_service_beneficiaries&state=CA
+    url: https://data.cms.gov/tools/market-saturation-utilization-state-county-mapping-tool?referencePeriod=2022-01-01%20to%202022-12-31&healthServiceArea=Ambulance%20(Emergency%20%26%20Non-Emergency)&metric=number_of_fee_for_service_beneficiaries&state=CA
+    waitForTimeout: 10000
+  - name: /tools/market-saturation-utilization-core-based-statistical-areas-mapping-tool?referencePeriod=2022-01-01%20to%202022-12-31&healthServiceArea=Ambulance%20(Emergency%20%26%20Non-Emergency)&metric=number_of_fee_for_service_beneficiaries
+    url: https://data.cms.gov/tools/market-saturation-utilization-core-based-statistical-areas-mapping-tool?referencePeriod=2022-01-01%20to%202022-12-31&healthServiceArea=Ambulance%20(Emergency%20%26%20Non-Emergency)&metric=number_of_fee_for_service_beneficiaries
+    waitForTimeout: 10000
+  - name: /tools/market-saturation-utilization-core-based-statistical-areas-mapping-tool?cbsa=Albertville%2C%20AL&referencePeriod=2022-01-01%20to%202022-12-31&healthServiceArea=Ambulance%20(Emergency%20%26%20Non-Emergency)&metric=number_of_fee_for_service_beneficiaries
+    url: https://data.cms.gov/tools/market-saturation-utilization-core-based-statistical-areas-mapping-tool?cbsa=Albertville%2C%20AL&referencePeriod=2022-01-01%20to%202022-12-31&healthServiceArea=Ambulance%20(Emergency%20%26%20Non-Emergency)&metric=number_of_fee_for_service_beneficiaries
+    waitForTimeout: 10000
